@@ -1,0 +1,10 @@
+{
+  "iridium@@i-layout": "i-layout-osumilite",
+  "iridium@@i-status-bar-centered": false,
+  "iridium@@i-status-bar-full-width": false,
+  "iridium@@i-scrollbar": false,
+  "iridium@@i-colorful-folders": "i-folder-colorful-bg",
+  "iridium@@i-folder-colorful-start-from-red": true,
+  "iridium@@i-folder-colorful-nesting-off": false,
+  "iridium@@i-folder-name-weight": 400
+}

@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "2df4c3a65e8ced88",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cec19157cc3bac3",
+        "type": "tabs",
+        "dimension": 33.69098712446352,
+        "children": [
+          {
+            "id": "8a8d48c8a169f88c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_1_semester/intro_exam/Things that need studying.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Things that need studying"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5d7cb6066f3a8936",
+        "type": "tabs",
+        "dimension": 66.30901287553648,
+        "children": [
+          {
+            "id": "e3e0f898a387ada4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_1_semester/01_network/01_tcp-ip_model/02_Transport - segment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02_Transport - segment"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7231cf40b7b6f166",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef8d84e6964640ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "971d95255abead60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a9a6acaeab334400",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5b7f385d238adbf5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.8333435058594
+  },
+  "right": {
+    "id": "59cd04a48de57d52",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddbe9aca74d93c35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab328778f3aacd08",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c27e7380b2ac4495",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c56bdd600032c8b6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f28208d31010c4cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "84ec8ec03b4cd166",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e3e0f898a387ada4",
+  "lastOpenFiles": [
+    "00_1_semester/01_network/Protocol_headers/UDP_Header.png",
+    "00_1_semester/01_network/01_tcp-ip_model/02_Transport - segment.md",
+    "00_1_semester/01_network/01_tcp-ip_model/04_Datalink - frame.md",
+    "00_1_semester/01_network/Protocol_headers/TCP_headers.png",
+    "00_1_semester/intro_exam/Things that need studying.md",
+    "00_1_semester/01_network/01_tcp-ip_model/03_Network - datagram.md",
+    "00_1_semester/01_network/Protocol_headers/IPv4_headers.png",
+    "00_1_semester/01_network/Protocol_headers/IPv6_header.png",
+    "Pasted image 20260916134123.png",
+    "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
+    "Application - message.md",
+    "Transport - segment.md",
+    "00_1_semester/01_network/Other pictures/CSMA.png",
+    "00_1_semester/01_network/Other pictures",
+    "00_1_semester/01_network/Other pictures/CSMA_CD.png",
+    "00_1_semester/01_network/Protocol_headers/WiFi_802.11_header.png",
+    "00_1_semester/01_network/Protocol_headers/HTTP_headers.png",
+    "00_1_semester/01_network/Protocol_headers/Ethernet_header.png",
+    "Applicatin_layer - message.md",
+    "00_1_semester/01_network/Protocol_headers",
+    "00_1_semester/01_network/01_tcp-ip_model/05_Physical - bit.md",
+    "00_1_semester/intro_exam",
+    "Untitled",
+    "00_1_semester/01_network/01_tcp-ip_model",
+    "00_1_semester/02_python",
+    "00_1_semester/01_network",
+    "00_1_semester"
+  ]
+}

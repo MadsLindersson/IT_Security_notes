@@ -1,0 +1,84 @@
+
+### Python
+- Files
+	- Fetch
+		- Manipulate with
+	- Create
+- Linux commands
+	- pwd, cat and others
+- Type checking
+- args & kwargs
+- try & except
+- dictionaries
+	- looping
+	- editing
+	- adding
+	- deleting
+- lists & tuples
+	- "changing" a tuple using list
+- indexing
+- Slicing
+### Network
+- ##### [[01_Application - message | Application - message]]
+	- HTTP  
+		- Request / response 
+		- status codes (200, 404, 400)
+		- Headers
+	- DNS
+		- DNS hierachy
+			- Root
+			- TLD - top-level domain
+			- Authoritative
+		- Recursive vs iterative
+		- DNS records
+			- A
+			- AAAA
+			- MX
+			- CNAME
+			- NS
+	- SMTP
+	- Telnet
+	- LDAP
+	- DHCP
+	- SSH
+	- FTP
+- ##### [[02_Transport - segment | Transport - segement]]
+	- TCP - connection-oriented / Reliable / Congestion-control
+		- 3-way-handshake (SYN/SYNACK/ACK)
+		- Headers
+		- Sequence numbers & acknowledgement numbers
+	- Window size
+	- MSS & SACK
+	- Tabte packets - hvad sker der?
+		- Go-back-n & selective repeat
+	- UDP
+		- Headers
+- ##### [[Network - datagram | Network - datagram]]
+	- IPv4
+		- headers
+	- IPv6
+		- headers
+	- Fragmentation & fragment offeset
+	- TTL
+	- Subnets & CIDR
+		- Subnet mask
+	- DHCP & DORA
+	- Default gateway
+	- NAT
+	- ICMP
+		- ping 
+		- traceroute
+- ##### [[Datalink - frame | Datalink - frame]] done
+	- Ethernet
+	- Wifi
+	- Mac-address
+	- ARP
+		- ARP request
+		- ARP reply
+	- Switch vs router
+	- CSMA/CD
+	- RTS/CTS & hidden terminal problem
+- ##### [[Physical - bit]]
+
+
+
