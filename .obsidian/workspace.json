@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/Other/Linux commands.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux commands"
+              "title": "2.1"
             }
           }
         ]
@@ -186,31 +186,33 @@
       "templates:Indsæt skabelon": false,
       "command-palette:Åbn kommandopalet": false,
       "bases:Opret ny base": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "homework-manager:Open homework": false
     }
   },
   "active": "1ef4f8c111494b95",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/Pasted image 20260925092918.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2.md",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1.md",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925122122.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141941.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141917.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141445.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141410.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925132653.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925132503.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925131209.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925130535.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925130329.png",
+    "00_1_semester/Lektier.md",
     "00_1_semester/Other/Linux commands.md",
     "00_1_semester/Other",
-    "00_1_semester/Lektier.md",
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/02_25sep_understand_the_attacker.md",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1-2.2.md",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2",
     "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3/1.1-1.2-1.3.md",
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/Pasted image 20260925085946.png",
     "00_1_semester/03_System_Security/01_23sep_intro+policies/01_23sep_intro+policies.md",
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker",
     "00_1_semester/03_System_Security/01_23sep_intro+policies",
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/Pasted image 20260925090355.png",
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/Pasted image 20260925090034.png",
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/Pasted image 20260925085953.png",
-    "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3/Pasted image 20260924145429.png",
-    "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3/Pasted image 20260924145324.png",
-    "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3/Pasted image 20260924144052.png",
-    "Pasted image 20260924143910.png",
-    "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3/Pasted image 20260924125943.png",
     "00_1_semester/03_System_Security/Mandatories/1.1-1.2-1.3",
     "00_1_semester/04_network&communication_security/01_24sep_intro.md",
     "00_1_semester/04_network&communication_security",
