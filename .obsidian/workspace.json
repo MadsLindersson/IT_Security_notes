@@ -11,14 +11,12 @@
             "id": "1ef4f8c111494b95",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2.md",
-                "mode": "source",
-                "source": false
+                "file": "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925145425.png"
               },
-              "icon": "lucide-file",
-              "title": "2.2"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260925145425"
             }
           }
         ]
@@ -190,21 +188,23 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "1ef4f8c111494b95",
+  "active": "971d95255abead60",
   "lastOpenFiles": [
-    "Pasted image 20260925150451.png",
-    "Pasted image 20260925150355.png",
-    "Pasted image 20260925150218.png",
-    "Pasted image 20260925145443.png",
-    "Pasted image 20260925145425.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1.md",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2.md",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925122122.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141941.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141917.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141445.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925141410.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/Pasted image 20260925132653.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925120722.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/2.1.md",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925145425.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/2.2.md",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925150451.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925150355.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925150218.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925145443.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925122122.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925141941.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925141917.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925141445.png",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925141410.png",
     "00_1_semester/Lektier.md",
     "00_1_semester/Other/Linux commands.md",
     "00_1_semester/Other",
@@ -227,9 +227,7 @@
     "00_1_semester/intro_exam/Things that need studying.md",
     "Application - message.md",
     "Transport - segment.md",
-    "00_1_semester/01_network/01_tcp-ip_model/Other pictures",
     "Applicatin_layer - message.md",
-    "00_1_semester/01_network/01_tcp-ip_model/Protocol_headers",
     "00_1_semester/01_network/01_tcp-ip_model/05_Physical - bit.md"
   ]
 }
