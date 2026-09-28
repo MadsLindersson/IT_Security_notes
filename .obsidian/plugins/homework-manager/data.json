@@ -9,18 +9,7 @@
     {
       "name": "Homework",
       "subjects": [],
-      "tasks": [
-        {
-          "name": "SS - 2.1+2.2",
-          "date": "2026-09-30",
-          "page": "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1-2.2.md"
-        },
-        {
-          "name": "Net/kom - SSH in i server + ping mellem vs + docker opgaver",
-          "date": "2026-10-01",
-          "page": ""
-        }
-      ]
+      "tasks": []
     }
   ]
 }
