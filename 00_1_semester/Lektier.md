@@ -11,3 +11,5 @@ Egne lektier
 | -------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Linux commands | [[https://tryhackme.com/dashboard \| tryhackme]]<br>[[https://www.linkedin.com/learning/?u=36836804 \| Linkedin Learning]] |
 |                |                                                                                                                            |
+
+
