@@ -25,3 +25,8 @@ En form for variable vi kan ligge data ind i og derefter fortælle f.eks. hvilke
 
 ![[Pasted image 20260930095524.png]]
 
+*Bør gælde alle steder, cloud, api keys, fysisk adgang*
+
+**Database rettighedder**
+Rettighedder kan også gælde i f.eks. en database:
+![[Pasted image 20260930101645.png]]
