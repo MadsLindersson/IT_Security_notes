@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/Lektier.md",
+                "file": "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/30sep_user_least_priviledges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lektier"
+              "title": "30sep_user_least_priviledges"
             }
           }
         ]
@@ -192,8 +192,15 @@
   },
   "active": "1ef4f8c111494b95",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928132142.png",
+    "Pasted image 20260930093254.png",
+    "Pasted image 20260930085147.png",
+    "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/30sep_user_least_priviledges.md",
+    "Pasted image 20260930090539.png",
+    "00_1_semester/Lektier.md",
+    "00_1_semester/Kommandoer der skal tjekkes.md",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/2.2.md",
+    "00_1_semester/03_System_Security/03_30sep_user_least_priviledges",
+    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928132142.png",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/2.1.md",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928130933.png",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928131627.png",
@@ -202,11 +209,8 @@
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928131109.png",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260928131028.png",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925145425.png",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1/Pasted image 20260925120722.png",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2",
     "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.1",
-    "00_1_semester/03_System_Security/Mandatories/2.1-2.2/2.2/Pasted image 20260925150451.png",
-    "00_1_semester/Lektier.md",
     "00_1_semester/Other/Linux commands.md",
     "00_1_semester/Other",
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/02_25sep_understand_the_attacker.md",
@@ -220,7 +224,6 @@
     "00_1_semester/04_network&communication_security",
     "00_1_semester/03_System_Security/Mandatories",
     "00_1_semester/01_network/01_tcp-ip_model/00_tcp-ip_model.md",
-    "00_1_semester/03_System_Security",
     "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
     "00_1_semester/01_network/01_tcp-ip_model/04_Datalink - frame.md",
     "00_1_semester/01_network/01_tcp-ip_model/02_Transport - segment.md",

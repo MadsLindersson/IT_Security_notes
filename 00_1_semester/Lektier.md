@@ -12,4 +12,14 @@ Egne lektier
 | Linux commands | [[https://tryhackme.com/dashboard \| tryhackme]]<br>[[https://www.linkedin.com/learning/?u=36836804 \| Linkedin Learning]] |
 |                |                                                                                                                            |
 
+Kommandoer
+
+
+| Command           |     |
+| ----------------- | --- |
+| sudo ls -la /root |     |
+| sudo less         |     |
+| sudo su -         |     |
+| Fdisk -l          |     |
+
 
