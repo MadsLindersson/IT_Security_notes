@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/3/3.1.md",
+                "file": "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1"
+              "title": "Fundamentals and sniffing"
             }
           }
         ]
@@ -192,16 +192,22 @@
   },
   "active": "1ef4f8c111494b95",
   "lastOpenFiles": [
-    "Pasted image 20260930122847.png",
-    "Pasted image 20260930122128.png",
-    "Pasted image 20260930120724.png",
-    "Pasted image 20260930113840.png",
-    "Pasted image 20260930113534.png",
-    "Pasted image 20260930113359.png",
-    "Pasted image 20260930113132.png",
-    "Pasted image 20260930112759.png",
-    "00_1_semester/03_System_Security/Mandatories/3/3.2.md",
-    "00_1_semester/03_System_Security/Mandatories/3/3.1.md",
+    "00_1_semester/04_network&communication_security/01_24sep_intro/01_24sep_intro.md",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
+    "00_1_semester/04_network&communication_security/01_24sep_intro",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930112759.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/3.1.md",
+    "00_1_semester/03_System_Security/Mandatories/3/3.2",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930122847.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930122128.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930120724.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930113840.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930113534.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930113359.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.1/Pasted image 20260930113132.png",
+    "00_1_semester/03_System_Security/Mandatories/3/3.2/3.2.md",
     "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/Pasted image 20260930101645.png",
     "00_1_semester/03_System_Security/Mandatories/2/2.2/2.2.md",
     "00_1_semester/03_System_Security/Mandatories/3",
@@ -210,7 +216,6 @@
     "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/30sep_user_least_priviledges.md",
     "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/Pasted image 20260930093718.png",
     "00_1_semester/Lektier.md",
-    "00_1_semester/03_System_Security/03_30sep_user_least_priviledges/Pasted image 20260930095524.png",
     "00_1_semester/Kommandoer der skal tjekkes.md",
     "00_1_semester/03_System_Security/03_30sep_user_least_priviledges",
     "00_1_semester/03_System_Security/Mandatories/2/2.2",
@@ -220,11 +225,6 @@
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/02_25sep_understand_the_attacker.md",
     "00_1_semester/03_System_Security/Mandatories/2",
     "00_1_semester/03_System_Security/01_23sep_intro+policies/01_23sep_intro+policies.md",
-    "00_1_semester/03_System_Security/02_25sep_understand_the_attacker",
-    "00_1_semester/03_System_Security/01_23sep_intro+policies",
-    "00_1_semester/03_System_Security/Mandatories/1",
-    "00_1_semester/04_network&communication_security/01_24sep_intro.md",
-    "00_1_semester/04_network&communication_security",
     "00_1_semester/01_network/01_tcp-ip_model/00_tcp-ip_model.md",
     "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
     "00_1_semester/01_network/01_tcp-ip_model/04_Datalink - frame.md",
