@@ -1,0 +1,1 @@
+- Bliv enige om hvilket VM program i brugere (WMwavre eller VirtualBox)
