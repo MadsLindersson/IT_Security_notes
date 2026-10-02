@@ -37,9 +37,24 @@
 ![[Pasted image 20261001120438.png|233]]
 ![[Pasted image 20261001120446.png|360]]
 
-**Packet number:** 291
-**Protocol:** ICMP
+![[Pasted image 20261001151714.png]]
+
+**Packet number:** 303
+**Protocol:** UDP
 **Source IP address:** 192.168.64.4
-**Destination IP Address:** 192.168.64.255
-**Source MAC address:** ff:ff:ff:ff:ff:ff
-**Destination MAC address:** 08:00:27:33:8c:93
+**Destination IP Address:** 239.10.10.10
+**Source MAC address:** ![[Pasted image 20261001151840.png]]
+**Destination MAC address:** ![[Pasted image 20261001151828.png]]
+**Payload/message:** ![[Pasted image 20261001152020.png]]
+
+2. UDP port 5000 
+3. The dest IP differs from uni- and broadcast by being within the multicast range of 224.0.0.0 - 239.255.255.255
+4. The broadcast MAC address is a default ff:ff:ff:ff:ff:ff whereas the multicast is an actual MAC address of a unit
+
+##### Task 4
+
+| Type      | Dest. IP       | Dest. MAC          | Intended receiver  |
+| --------- | -------------- | ------------------ | ------------------ |
+| Unicast   | 172.66.147.243 | 08:00:27:33:8c:93  | 172.66.147.243     |
+| Broadcast | 192.168.64.4   | ff:ff:ff:ff:ff:ff  | ff:ff:ff:ff:ff:ff  |
+| Multicast | 239.10.10.10   | 01:00:5e:0a:0a:0a: | 01:00:5e:0a:0a:0a: |
