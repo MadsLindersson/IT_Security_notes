@@ -14,8 +14,29 @@
 		- STALE
 		- FAILED
 		- PERMANENT
-- 
 ##### DHCP
+- Uses UDP port 53
+- Tildeler IP adresser
+
+**DORA**
+- Discover
+- Offer
+- Request
+- Acknowledge
+
+**Attacks**
+- Rogue DHCP Server
+	- Attacker-controlled default gateway
+	- Attacker-controlled DNS server
+	- Incorrect subnet mask
+	- Invalid routes
+	- Very short lease duration
+
+**Detection**
+- Multiple DHCP offers for one discover
+- Unexpeced DHCP server addresses
+- Incorrect gateway or DNS config
+- DHCP responses originating from user-facing ports
 ##### Ethernet switching
 ##### Switch security
 **Possible problems:**
