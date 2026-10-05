@@ -8,6 +8,13 @@
 	- For at tjekke om der er en anden host der bruger denne IP adresse
 - *ARP annnouncement* - "This IP is mine"
 	- Bruges når en host advertiser sin egen IP-to-MAC mapping
+- *ARP / Neigbour table* 
+	- når en host lær en IP-to-MAC mapping gemmes det i den neighbour table
+		- REACHABLE
+		- STALE
+		- FAILED
+		- PERMANENT
+- 
 ##### DHCP
 ##### Ethernet switching
 ##### Switch security
