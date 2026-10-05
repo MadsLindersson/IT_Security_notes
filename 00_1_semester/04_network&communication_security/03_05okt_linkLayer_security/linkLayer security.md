@@ -34,7 +34,7 @@
 
 **Detection**
 - Multiple DHCP offers for one discover
-- Unexpeced DHCP server addresses
+- Unexpected DHCP server addresses
 - Incorrect gateway or DNS config
 - DHCP responses originating from user-facing ports
 ##### Ethernet switching
