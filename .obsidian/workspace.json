@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7963a53eb8f2b94",
+        "id": "8595e897fa6b1f38",
         "type": "tabs",
         "children": [
           {
-            "id": "7f7ba5a594ddd3aa",
+            "id": "b9b5f8f6aa3bdb84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/Mandatory 1.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mandatory 1"
+              "title": "4.2"
             }
           }
         ]
@@ -190,38 +190,39 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "7f7ba5a594ddd3aa",
+  "active": "b9b5f8f6aa3bdb84",
   "lastOpenFiles": [
-    "Pasted image 20261005131822.png",
-    "Pasted image 20261005131755.png",
-    "Pasted image 20261005131721.png",
-    "Pasted image 20261005131703.png",
-    "Pasted image 20261005130710.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006112612.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006121956.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006121938.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006113233.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006112735.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006111044.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006111054.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006110459.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006110759.png",
+    "Pasted image 20261006110739.png",
+    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots",
+    "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.6.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.4.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/linkLayer security.md",
-    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/Mandatory 1.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/Screenshots",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1",
     "00_1_semester/04_network&communication_security/Mandatories/Unavngivet.md",
     "00_1_semester/04_network&communication_security/Mandatories",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks.md",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002153035.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002153049.png",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Screenshots",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002142606.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002152149.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002152135.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots/Pasted image 20261002144255.png",
     "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots",
     "00_1_semester/03_System_Security/Mandatories/3/3.2/3.2.md",
     "00_1_semester/03_System_Security/Mandatories/3/3.1/3.1.md",
     "00_1_semester/03_System_Security/Mandatories/3/3.2/screenshots",
     "00_1_semester/03_System_Security/Mandatories/3/3.1/screenshots",
     "00_1_semester/03_System_Security/04_02okt_file_permission_ACL_Special bits/File permission and stuff.md",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
     "00_1_semester/03_System_Security/Mandatories/4/4.2",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
     "Unavngivet.md",
     "00_1_semester/Feedback til lærerne.md",
@@ -235,8 +236,6 @@
     "00_1_semester/Other/Linux commands.md",
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/02_25sep_understand_the_attacker.md",
     "00_1_semester/03_System_Security/01_23sep_intro+policies/01_23sep_intro+policies.md",
-    "00_1_semester/01_network/01_tcp-ip_model/00_tcp-ip_model.md",
-    "00_1_semester/01_network/01_tcp-ip_model/01_Application - message.md",
-    "00_1_semester/01_network/01_tcp-ip_model/04_Datalink - frame.md"
+    "00_1_semester/01_network/01_tcp-ip_model/00_tcp-ip_model.md"
   ]
 }
