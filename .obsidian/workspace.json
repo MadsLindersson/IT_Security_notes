@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
+                "file": "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Part 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.2"
+              "title": "Part 2"
             }
           }
         ]
@@ -192,17 +192,21 @@
   },
   "active": "b9b5f8f6aa3bdb84",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006112612.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007112935.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Part 2.md",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007114036.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007114006.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007100335.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007112143.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007112133.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007111852.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007111605.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots/Pasted image 20261007111554.png",
+    "Pasted image 20261007111503.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Screenshots",
     "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006121956.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006121938.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006113233.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006112735.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006111044.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006111054.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006110459.png",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots/Pasted image 20261006110759.png",
-    "Pasted image 20261006110739.png",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2",
+    "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks",
     "00_1_semester/03_System_Security/Mandatories/4/4.2/Screenshots",
     "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md",
@@ -219,10 +223,7 @@
     "00_1_semester/03_System_Security/Mandatories/4/4.1/screenshots",
     "00_1_semester/03_System_Security/Mandatories/3/3.2/3.2.md",
     "00_1_semester/03_System_Security/Mandatories/3/3.1/3.1.md",
-    "00_1_semester/03_System_Security/Mandatories/3/3.2/screenshots",
-    "00_1_semester/03_System_Security/Mandatories/3/3.1/screenshots",
     "00_1_semester/03_System_Security/04_02okt_file_permission_ACL_Special bits/File permission and stuff.md",
-    "00_1_semester/03_System_Security/Mandatories/4/4.2",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
     "Unavngivet.md",
     "00_1_semester/Feedback til lærerne.md",
@@ -235,7 +236,6 @@
     "00_1_semester/Kommandoer der skal tjekkes.md",
     "00_1_semester/Other/Linux commands.md",
     "00_1_semester/03_System_Security/02_25sep_understand_the_attacker/02_25sep_understand_the_attacker.md",
-    "00_1_semester/03_System_Security/01_23sep_intro+policies/01_23sep_intro+policies.md",
-    "00_1_semester/01_network/01_tcp-ip_model/00_tcp-ip_model.md"
+    "00_1_semester/03_System_Security/01_23sep_intro+policies/01_23sep_intro+policies.md"
   ]
 }
