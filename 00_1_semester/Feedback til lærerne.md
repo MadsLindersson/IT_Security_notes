@@ -1,2 +1,3 @@
 - Bliv enige om hvilket VM program i brugere (WMwavre eller VirtualBox)
 - Et "kursus" i hvordan man går til forensics i wireshark **før** vi får en wireshark opgave
+- Måske et reelt kursus i hvad der er lovligt og ikke lovligt så vi er 100% klar over hvordan vi skal begå os med de opgaver vi får osv. 
