@@ -11,14 +11,12 @@
             "id": "b9b5f8f6aa3bdb84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
-                "mode": "source",
-                "source": false
+                "file": "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009150317.png"
               },
-              "icon": "lucide-file",
-              "title": "5.2"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261009150317"
             }
           }
         ]
@@ -192,22 +190,21 @@
   },
   "active": "971d95255abead60",
   "lastOpenFiles": [
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009154036.png",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009153858.png",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009153734.png",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009153534.png",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009153343.png",
+    "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009150317.png",
     "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots/Pasted image 20261009130600.png",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/5.1.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009124642.png",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009130436.png",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009130332.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009130131.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009125327.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009125105.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009125033.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009125018.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009113406.png",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots/Pasted image 20261009115303.png",
     "00_1_semester/03_System_Security/05_09okt_authentication&MFA/Password account & login hardening & MFA.md",
     "00_1_semester/Feedback til lærerne.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.3/5.3.md",
-    "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
     "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.3/Screenshots",
     "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots",
