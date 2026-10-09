@@ -1,2 +1,2 @@
 - Bliv enige om hvilket VM program i brugere (WMwavre eller VirtualBox)
-- Et "kursus" i hvordan man tilgår forensics i wireshark **før** vi får en wireshark opgave
+- Et "kursus" i hvordan man går til forensics i wireshark **før** vi får en wireshark opgave
