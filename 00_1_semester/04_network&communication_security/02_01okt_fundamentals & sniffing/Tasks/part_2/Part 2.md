@@ -33,4 +33,31 @@ Task 1:
 
 1. Client IP is my Kali - 192.168.64.130
 2. Server IP is my ubuntu - 192.168.64.129
-3. 
+
+#### Task 4
+![[Pasted image 20261013102728.png|499]]
+
+![[Pasted image 20261013104145.png]]
+
+![[Pasted image 20261013104210.png]]
+
+![[Pasted image 20261013104235.png]]
+
+1. .130
+2. .129
+3. 54732
+4. 4444
+5. ![[Pasted image 20261013104344.png]]
+
+#### Task 5
+
+![[Pasted image 20261013104457.png|439]]
+
+![[Pasted image 20261013104803.png]]
+
+1. 192.168.64.2
+2. ![[Pasted image 20261013104836.png]]
+3. it's an A record. (an AAAA record with the ipv6 address was also sent)
+4. 80
+5. ![[Pasted image 20261013105154.png]]
+6. There is nothing exciting in the http request, but in the http response i can basically read all of the html.
