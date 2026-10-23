@@ -192,8 +192,9 @@
   },
   "active": "be6e1bf8224b7520",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/21_10oct_trusec_event/Truesec event.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Link layer security Part II VLANs.md",
+    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/NCS-Lecture-3.pdf",
+    "00_1_semester/03_System_Security/21_10oct_trusec_event/Truesec event.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Part 1.md",
     "00_1_semester/03_System_Security/21_10oct_trusec_event",
@@ -223,7 +224,6 @@
     "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.3/Screenshots",
     "00_1_semester/03_System_Security/Mandatories/5/5.2/Screenshots",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/Screenshots",
     "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
     "00_1_semester/Lektier.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md",
@@ -236,7 +236,6 @@
     "00_1_semester/03_System_Security/04_02okt_file_permission_ACL_Special bits/File permission and stuff.md",
     "Unavngivet.md",
     "00_1_semester/04_network&communication_security/01_24sep_intro/01_24sep_intro.md",
-    "00_1_semester/03_System_Security/Mandatories/2/2.2/2.2.md",
-    "00_1_semester/03_System_Security/Mandatories/2/2.1/2.1.md"
+    "00_1_semester/03_System_Security/Mandatories/2/2.2/2.2.md"
   ]
 }
