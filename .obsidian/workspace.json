@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
+                "file": "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on/Vlan recap & hands on lab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Central User Management with LDAP"
-            }
-          },
-          {
-            "id": "ded3be638d1eb0e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Trunking"
+              "title": "Vlan recap & hands on lab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,11 +190,14 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "ded3be638d1eb0e2",
+  "active": "be6e1bf8224b7520",
   "lastOpenFiles": [
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switches & VLAN's.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
+    "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on/Vlan recap & hands on lab.md",
+    "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments/Pasted image 20261026111437.png",
     "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 1.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments/Pasted image 20261026090133.png",
@@ -225,7 +213,6 @@
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023140424.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023134304.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023134146.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023133857.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Part 1.md",
     "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
@@ -241,7 +228,6 @@
     "00_1_semester/03_System_Security/06_21_10oct_trusec_event",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Attachments",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Part 2.md",
-    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Screenshots",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_1/Tasks.md",
     "00_1_semester/Feedback til lærerne.md",
@@ -251,7 +237,6 @@
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.6.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.4.md",
-    "00_1_semester/04_network&communication_security/Mandatories/Unavngivet.md",
-    "00_1_semester/03_System_Security/Mandatories/3/3.2/3.2.md"
+    "00_1_semester/04_network&communication_security/Mandatories/Unavngivet.md"
   ]
 }
