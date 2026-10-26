@@ -33,3 +33,5 @@ Et VLAN er et *Virtuel LAN*. Det er en måde at opdele et LAN logisk, så 1 swit
 3. **Reducere CPU overhead** - Færre BUM frames giver mindre traffik til de enkelte enheder
 4. **Forbedre netværk performance**  
 
+
+
