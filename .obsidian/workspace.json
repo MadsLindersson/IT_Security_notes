@@ -27,24 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Part 1.md",
+                "file": "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Link layer security Part II VLANs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 1"
-            }
-          },
-          {
-            "id": "b8c594a24a59aad1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exercise_6_1__LDAP_Setup_Walkthrough"
+              "title": "Link layer security Part II VLANs"
             }
           }
         ],
@@ -110,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "59cd04a48de57d52",
@@ -127,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Part 1.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,21 +207,24 @@
   },
   "active": "bc1b87e1d70cdf14",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023121740.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough.pdf",
     "00_1_semester/03_System_Security/Mandatories/6/Part 1.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023121007.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023120826.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023113948.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023113606.png",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Link layer security Part II VLANs.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments/Pasted image 20261026090133.png",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments",
+    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/linkLayer security.md",
+    "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough.pdf",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023145932.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023145123.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023143846.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023143550.png",
+    "00_1_semester/03_System_Security/Mandatories/6/LDAP passwords.md",
     "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023112446.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023111123.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023110544.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023110254.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023105139.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023142655.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023140424.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023134304.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023134146.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261023133857.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments",
-    "00_1_semester/03_System_Security/Mandatories/6/Untitled.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Part 1.md",
     "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/5.1.md",
@@ -242,17 +232,14 @@
     "00_1_semester/03_System_Security/Mandatories/5/5.3/5.3.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
     "00_1_semester/03_System_Security/07_23_okt_Central Control (LDAP)/Central Control (LDAP).md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Link layer security Part II VLANs.md",
     "00_1_semester/03_System_Security/07_23_okt_Central Control (LDAP)",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/NCS-Lecture-3.pdf",
     "00_1_semester/03_System_Security/06_21_10oct_trusec_event/Truesec event.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs",
     "00_1_semester/03_System_Security/06_21_10oct_trusec_event",
-    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Attachments/Pasted image 20261015103721.png",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Attachments",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_2/Part 2.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Screenshots",
-    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Fundamentals and sniffing.md",
     "00_1_semester/04_network&communication_security/02_01okt_fundamentals & sniffing/Tasks/part_1/Tasks.md",
     "00_1_semester/Feedback til lærerne.md",
@@ -262,7 +249,6 @@
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.6.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/192.168.64.4.md",
-    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/linkLayer security.md",
     "00_1_semester/04_network&communication_security/Mandatories/Unavngivet.md",
     "00_1_semester/03_System_Security/Mandatories/3/3.2/3.2.md",
     "00_1_semester/03_System_Security/Mandatories/3/3.1/3.1.md"
