@@ -66,5 +66,3 @@
 ![[Pasted image 20261023145932.png]]
 ##### whoami
 ![[Pasted image 20261023145123.png]]
-
-### 
