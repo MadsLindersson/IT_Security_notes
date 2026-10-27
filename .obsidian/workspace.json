@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bbec40a673197c8",
+            "id": "a0aa6ab11f5d9c3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Part 2 - on desktop.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/6/Part 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2 - on desktop"
-            }
-          },
-          {
-            "id": "ee9716357ef0473e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/6/Part 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Part 3"
+              "title": "Part 4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "fd4ac138694fce25",
@@ -131,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "59cd04a48de57d52",
@@ -238,24 +224,26 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "ee9716357ef0473e",
+  "active": "a0aa6ab11f5d9c3a",
   "lastOpenFiles": [
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027110916.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027110845.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027110813.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027110218.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027110155.png",
     "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough.pdf",
+    "00_1_semester/03_System_Security/Mandatories/6/Part 4.md",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027105746.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027104754.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027104738.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027104532.png",
+    "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 3.md",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027103236.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027103201.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027103148.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 1 - on server.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 2 - on desktop.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027101833.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027101305.png",
     "00_1_semester/03_System_Security/Mandatories/6/LDAP passwords.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027100934.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027094217.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027093858.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027093802.png",
-    "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261027093434.png",
     "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on/VLAN recap & hands on lab.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on",
@@ -283,7 +271,6 @@
     "00_1_semester/Feedback til lærerne.md",
     "00_1_semester/03_System_Security/05_09okt_authentication&MFA/Password account & login hardening & MFA.md",
     "00_1_semester/03_System_Security/Mandatories/4/4.2/4.2.md",
-    "00_1_semester/Lektier.md",
-    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 1/MAC 08.00.27.33.8c.93.md"
+    "00_1_semester/Lektier.md"
   ]
 }
