@@ -43,4 +43,34 @@ Det bliver bestemt på directory og ikke pr. maskine. Vi har sat reglen op på h
 ### Desktop 2
 ![[Pasted image 20261027113756.png]]
 
-# Nået til 4.5
+# Check that pam.d/common-auth has the correct pam_sss.so line
+**![[Pasted image 20261028102747.png]]
+
+# Wierd - Desktop 1 - log in as LDAP user with 3 wrong passwords
+### Desktop 1 - 3 login attempts
+![[Pasted image 20261029134146.png]]
+
+### Desktop 2 - login
+![[Pasted image 20261029134212.png]]
+
+### Checking faillock - showing nothing
+![[Pasted image 20261029134641.png]]
+
+# Password policies and MFA
+![[Pasted image 20261029134845.png]]
+
+All of the above live on the machine and not LDAP.
+
+# Listen on Wireshark
+![[Pasted image 20261029141302.png]]
+
+### Restart sssd and login
+![[Pasted image 20261029141521.png]]
+
+![[Pasted image 20261029141534.png]]
+
+### Make pcap file readable
+![[Pasted image 20261029141614.png]]
+
+### Open it in wirehark
+
