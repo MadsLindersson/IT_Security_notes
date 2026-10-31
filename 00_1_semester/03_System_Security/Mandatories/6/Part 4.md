@@ -13,11 +13,11 @@ Setting to false is the same as nologin, just with no message other than "false"
 
 ### Clear cache
 ![[Pasted image 20261027110218.png]]
-### su Jens
+### su Jens - now without login shell
 No message because he is set to "false" and not "nologin"
 ![[Pasted image 20261027110155.png]]
 
-# Check if the groups are visibel on the desktops
+# Check if the ldapadmins are visible on the desktops
 ![[Pasted image 20261027110813.png]]
 
 # id Lars
@@ -73,4 +73,9 @@ All of the above live on the machine and not LDAP.
 ![[Pasted image 20261029141614.png]]
 
 ### Open it in wirehark
+Look for ldap and bindrequest
+![[Pasted image 20261030105825.png]]
+
+### Look for the password in plain text
+![[Pasted image 20261030110037.png]]
 

@@ -5,7 +5,7 @@
 
 
 # Part 2
-!![[Part 2 - on desktop|Part 2 - on desktop]]
+![[Part 2 - on desktop|Part 2 - on desktop]]
 # Part 3
 ![[Part 3]]
 
