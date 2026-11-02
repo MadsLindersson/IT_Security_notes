@@ -65,3 +65,7 @@ Det fungere sådan at når et kabel bliver sat mellem 2 switches, **DTP sker <ma
 > [!note] CISCO switches
 > PORT's on CISCO switches are by default set to Dynamic Auto and are therefore operational and ready to receive what the other end says
 
+
+![[Pasted image 20261102105332.png]]
+
+
