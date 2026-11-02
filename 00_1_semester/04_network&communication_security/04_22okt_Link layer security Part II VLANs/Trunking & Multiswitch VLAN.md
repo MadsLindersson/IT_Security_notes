@@ -43,3 +43,21 @@ Dette sker ved at den enhed der sender framen laver en speciel header, kaldet *"
 
 
 ### Switch Interface Modes
+
+![[Switch Interface]]
+
+Da et LAN kan have tusinder af switch interfaces (switch PORT's) har CISCO lavet en protokol kaldet **Dynamic Trunking Protocol (*DTP*)**. Den hjælper switches med at finde ud af hvilken <mark style="background: #FFB8EBA6;">operational mode</mark> de skal være i. 
+
+#### DTP
+Hver PORT er sat til at være 1 af 4 modes. 
+1. Access
+2. Trunk
+3. Dynamic auto
+4. Dynamic desirable
+
+Det fungere sådan at når et kabel bliver sat mellem 2 switches, **DTP sker <mark style="background: #FF5582A6;">KUN</mark> mellem switches**, så sender switch(A) en besked til switch(B) der fortæller at den er blevet sat til <mark style="background: #BBFABBA6;">Dynamic Desirable.</mark>Hvis porten som kablet er sat i på switch(B) er kompatibel, dvs. at den er sat til <mark style="background: #FFF3A3A6;">Dynamic Auto,</mark> så sætter de 2 switch de porte til at være trunk porte. 
+
+
+> [!note] CISCO switches
+> PORT's on CISCO switches are by default set to Dynamic Auto and are therefore operational and ready to receive what the other end says
+

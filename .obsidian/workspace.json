@@ -35,8 +35,7 @@
               "title": "Switch Interface"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,10 +204,10 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "8660dc8c2ebdbb61",
+  "active": "319366f155244cbb",
   "lastOpenFiles": [
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switch Interface.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
     "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks/Part 2.md",
