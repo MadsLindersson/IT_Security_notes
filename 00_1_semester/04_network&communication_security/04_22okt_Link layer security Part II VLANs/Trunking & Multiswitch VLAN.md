@@ -53,7 +53,11 @@ Hver PORT er sat til at være 1 af 4 modes.
 1. Access
 2. Trunk
 3. Dynamic auto
+	Venter passivt på at den anden ende siger "Let's form a trunk"
 4. Dynamic desirable
+	Prøver aktivt at blive en trunk PORT
+5. nonegotiate
+	Slår DTP fra og interfacet skal konfigureres manuelt
 
 Det fungere sådan at når et kabel bliver sat mellem 2 switches, **DTP sker <mark style="background: #FF5582A6;">KUN</mark> mellem switches**, så sender switch(A) en besked til switch(B) der fortæller at den er blevet sat til <mark style="background: #BBFABBA6;">Dynamic Desirable.</mark>Hvis porten som kablet er sat i på switch(B) er kompatibel, dvs. at den er sat til <mark style="background: #FFF3A3A6;">Dynamic Auto,</mark> så sætter de 2 switch de porte til at være trunk porte. 
 
