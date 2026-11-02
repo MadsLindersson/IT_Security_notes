@@ -22,8 +22,24 @@ Hvis der er mange switches der alle sidder sammen som er default <mark style="ba
 ### What is a Trunk link? / VLAN Trunking
 
 > [!info] Trunk link
-> Et trunk link kan transportere mellem flere VLAN's over en enkelt fysisk forbindelse.
+> Et trunk link kan transportere en frame mellem flere VLAN's over en enkelt fysisk forbindelse.
 > Dvs. at <mark style="background: #FFB86CA6;">VLAN(10)</mark> og <mark style="background: #BBFABBA6;">VLAN(20)</mark> begge kan transportere data over 1 fysisk forbindelse
 
 ### How does a Trunk link work?
 
+Et trunk link holder styr på hvilket VLAN som en frame der sendes hører til. 
+Dette sker ved at den enhed der sender framen laver en speciel header, kaldet *"tag"*, som indeholder VLAN ID der fortæller hvilket VLAN framen hører til.
+
+
+> [!note] Trunking protocol
+> IEEE 802.1Q er standard protokollen for trunking og er typisk den eneste der er supporteret til det.
+> Der er 4096 mulige VLAN numre der kan stå i VLAN ID
+> 
+> 
+> > [!NOTE] VLAN Tagging
+> > VLAN Tagging er processen hvorpå en frame får indsat et tag der inkludere VLAN ID. 
+> >
+> >VLAN Tagging er **KUN** en del af trunking! 
+
+
+### Switch Interface Modes
