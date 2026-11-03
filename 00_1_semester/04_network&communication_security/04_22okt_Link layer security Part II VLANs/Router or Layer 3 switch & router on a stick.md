@@ -1,4 +1,4 @@
-For at to VLAN's kan kommunikere er vi nød til at have noget der kan "route" data. Typisk vil enheder på et VLAN også tilhøre det samme subnet, derfor er det også nødvendigt at enheden der skal route data kan udføre IP routing. Det er vigtigt at enheden har en IP adresse i hvert netværk så klienterne kan bruge det som deres default gateway.
+For at to VLAN's kan kommunikere er vi nød til at have noget der kan "route" data. Typisk vil enheder på et VLAN også tilhøre det samme subnet, derfor er det også nødvendigt at enheden der skal route data kan udføre IP routing. Det er vigtigt at enheden har en IP adresse i hvert netværk så klienterne kan bruge det som deres [[Default gateway]].
 
 Her kan en router eller en layer 3 switch bruges. 
 - Router
