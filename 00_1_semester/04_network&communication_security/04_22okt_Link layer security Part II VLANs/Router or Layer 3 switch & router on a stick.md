@@ -7,6 +7,6 @@ Her kan en router eller en layer 3 switch bruges.
 - Layer 3 switch
 	- En layer 3 switch kan bruges til at sætte router funktioner op
 
-# Router on a stick
+# Router on a stick (ROAS)
 
 
