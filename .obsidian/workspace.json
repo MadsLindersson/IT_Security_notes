@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3128aed6531dad83",
+        "id": "d58b9666b17340ff",
         "type": "tabs",
         "children": [
           {
-            "id": "319366f155244cbb",
+            "id": "13b76dea02278a53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
+                "file": "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Switches & VLAN's"
-            }
-          },
-          {
-            "id": "49e7009aeb516596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Router or Layer 3 switch"
+              "title": "Default gateway"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,10 +190,12 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "49e7009aeb516596",
+  "active": "13b76dea02278a53",
   "lastOpenFiles": [
+    "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
+    "00_1_semester/04_network&communication_security/Specific notes",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunk Native VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switch Interface.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md",
@@ -246,12 +233,10 @@
     "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
     "00_1_semester/03_System_Security/05_09okt_authentication&MFA/Password account & login hardening & MFA.md",
     "00_1_semester/05_Kryptography/Day one/Day one.md",
-    "00_1_semester/05_Kryptography/Day one/python_base64_excercise.py",
     "00_1_semester/03_System_Security/Mandatories/6/Part 3.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 2 - on desktop.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/linkLayer security.md",
     "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/Tasks/Part_1/Part 1.md",
-    "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md",
-    "00_1_semester/03_System_Security/Mandatories/5/5.3/5.3.md"
+    "00_1_semester/03_System_Security/Mandatories/4/4.1/4.1.md"
   ]
 }

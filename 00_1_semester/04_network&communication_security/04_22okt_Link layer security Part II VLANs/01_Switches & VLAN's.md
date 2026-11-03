@@ -6,5 +6,5 @@
 
 ![[Trunk Native VLAN]]
 
-![[Router or Layer 3 switch]]
+![[Router or Layer 3 switch & router on a stick]]
 
