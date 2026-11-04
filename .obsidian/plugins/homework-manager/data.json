@@ -19,6 +19,26 @@
           "name": "Lav noter om CIDR, subnet mask & routing",
           "date": "",
           "page": ""
+        },
+        {
+          "name": "Krypto - Læs op på Merkle-Damgård hash metoden",
+          "date": "",
+          "page": ""
+        },
+        {
+          "name": "Krypto - læs op på Preimage-resistaince og second",
+          "date": "",
+          "page": ""
+        },
+        {
+          "name": "Krypto - Læs op på Birthday attacks",
+          "date": "",
+          "page": ""
+        },
+        {
+          "name": "Krypto mandatory!",
+          "date": "2026-11-13",
+          "page": ""
         }
       ]
     }
