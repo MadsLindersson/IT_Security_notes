@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/05_Kryptography/Day two/Day two.md",
+                "file": "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day two"
+              "title": "IP Layer Part II"
             }
           }
         ],
@@ -205,10 +205,12 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "827cd7f07c7406ce",
+  "active": "971d95255abead60",
   "lastOpenFiles": [
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/05_Kryptography/Day two/Day two.md",
+    "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
+    "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Untitled.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
     "00_1_semester/05_Kryptography/Day two",
@@ -219,16 +221,16 @@
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switch Interface.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments/Pasted image 20261102105332.png",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks/Part 2.md",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks/Part 1.md",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks/Attachments/Pasted image 20261030150429.png",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks/Attachments",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Tasks",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Attachments/Pasted image 20261030150157.png",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Attachments/Pasted image 20261030135413.png",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Attachments/Pasted image 20261030132935.png",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/Attachments",
-    "00_1_semester/04_network&communication_security/05_26okt_vlan recap + hands on/VLAN recap & hands on lab.md",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Part 2.md",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Part 1.md",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Attachments/Pasted image 20261030150429.png",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Attachments",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030150157.png",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030135413.png",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030132935.png",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments",
+    "00_1_semester/04_network&communication_security/26okt_vlan recap + hands on/VLAN recap & hands on lab.md",
     "00_1_semester/03_System_Security/Mandatories/7/7.md",
     "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 4.md",
@@ -244,14 +246,12 @@
     "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030085249.png",
     "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments",
     "00_1_semester/03_System_Security/07_30okt_Kerberos",
-    "00_1_semester/03_System_Security/Mandatories/6/Exercise_6_1__LDAP_Setup_Walkthrough 1.pdf",
-    "00_1_semester/04_network&communication_security/06_29sep_ip_layer/IP layer.md",
+    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/IP layer.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.1/5.1.md",
     "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
     "00_1_semester/03_System_Security/05_09okt_authentication&MFA/Password account & login hardening & MFA.md",
     "00_1_semester/05_Kryptography/Day one/Day one.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 3.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Part 2 - on desktop.md",
-    "00_1_semester/04_network&communication_security/03_05okt_linkLayer_security/linkLayer security.md"
+    "00_1_semester/03_System_Security/Mandatories/6/Part 2 - on desktop.md"
   ]
 }
