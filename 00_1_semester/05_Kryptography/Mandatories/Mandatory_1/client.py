@@ -1,7 +1,6 @@
 import socket
 import sys
 import json
-import bcrypt
 
 server_host = "127.0.0.1"
 server_port = 12000
@@ -9,15 +8,14 @@ server_port = 12000
 def startConnection():
     try:
         username = input("Enter username: ")
-        input_password = int(input("Enter password: "))
-        hashed_password = hashPassword(input_password)
+        password = input("Enter password: ")
 
         clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         clientsocket.connect((server_host, server_port))
 
         json_login = {
             "username": username,
-            "password": hashed_password
+            "password": password
         }
 
         json_message = json.dumps(json_login).encode("utf-8")
@@ -45,12 +43,5 @@ def startConnection():
     except:
         print("Connection to server could not be established")
         sys.exit(0)
-
-
-    def hashPassword(unhashed_pass):
-        bytes_password = unhashed_pass.encode("utf-8")
-        salt = bcrypt.gensalt(rounds=16)
-        hashed_password = bcrypt.hashpw(bytes_password, salt)
-        return hashed_password
 
 startConnection()
