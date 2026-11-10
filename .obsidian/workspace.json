@@ -8,31 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "13b76dea02278a53",
+            "id": "dbd07ca384ab9732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/7/7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Router or Layer 3 switch & router on a stick"
+              "title": "7"
             }
           },
           {
-            "id": "827cd7f07c7406ce",
+            "id": "8776f7ce5554670f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
+                "file": "00_1_semester/05_Kryptography/Day 3/Day 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP Layer Part II"
+              "title": "Day 3"
+            }
+          },
+          {
+            "id": "eae904a21e3ca179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_1_semester/05_Kryptography/Day 3/Ciphertext.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ciphertext"
             }
           }
         ],
@@ -205,25 +219,33 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "827cd7f07c7406ce",
+  "active": "8776f7ce5554670f",
   "lastOpenFiles": [
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1/Tidligere_server.py",
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1/Tidligere_server",
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1/client2.py",
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1/client.py",
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1/server.py",
-    "00_1_semester/05_Kryptography/Mandatories/Mandatory_1",
-    "00_1_semester/05_Kryptography/Mandatories/New folder",
-    "00_1_semester/05_Kryptography/Mandatories",
-    "00_1_semester/05_Kryptography/New folder",
-    "00_1_semester/05_Kryptography/Day two/Day two.md",
+    "00_1_semester/05_Kryptography/Day 3/Attachments/Pasted image 20261110132741.png",
+    "00_1_semester/05_Kryptography/Day 3/Attachments",
+    "00_1_semester/05_Kryptography/Day 3/Ciphertext.md",
+    "00_1_semester/05_Kryptography/Day 3/Day 3.md",
+    "00_1_semester/05_Kryptography/Day 3/passwords.txt",
+    "00_1_semester/05_Kryptography/Day 3/Verifyer.py",
+    "00_1_semester/05_Kryptography/Day 3/hasher.py",
+    "00_1_semester/03_System_Security/Mandatories/7/Part 0.md",
+    "00_1_semester/05_Kryptography/Day 3",
+    "00_1_semester/03_System_Security/Mandatories/7/7.md",
+    "00_1_semester/05_Kryptography/Mandatories/Mads_Lindersson_Mandatory_1/Mads_Lindersson_mandatory_1.pdf",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Mandatory Deliverable II.pdf",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261106151955.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/PART_II_STUDENT_GUIDE.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/README.md",
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Mandatory 2.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Unconfirmed 559602.crdownload",
+    "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
+    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2",
     "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
-    "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII",
+    "00_1_semester/05_Kryptography/Day 2/Day two.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Untitled.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
-    "00_1_semester/05_Kryptography/Day two",
-    "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunk Native VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switch Interface.md",
@@ -236,7 +258,6 @@
     "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030135413.png",
     "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030132935.png",
     "00_1_semester/04_network&communication_security/26okt_vlan recap + hands on/VLAN recap & hands on lab.md",
-    "00_1_semester/03_System_Security/Mandatories/7/7.md",
     "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md",
     "00_1_semester/03_System_Security/Mandatories/6/Part 4.md",
     "00_1_semester/03_System_Security/Mandatories/6/LDAP passwords.md",
@@ -245,13 +266,6 @@
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261030105825.png",
     "00_1_semester/03_System_Security/07_30okt_Kerberos/Kerberos.md",
     "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030090148.png",
-    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030085431.png",
-    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030085249.png",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/IP layer.md",
-    "00_1_semester/03_System_Security/Mandatories/5/5.1/5.1.md",
-    "00_1_semester/03_System_Security/Mandatories/5/5.2/5.2.md",
-    "00_1_semester/03_System_Security/05_09okt_authentication&MFA/Password account & login hardening & MFA.md",
-    "00_1_semester/05_Kryptography/Day one/Day one.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Part 3.md"
+    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030085431.png"
   ]
 }

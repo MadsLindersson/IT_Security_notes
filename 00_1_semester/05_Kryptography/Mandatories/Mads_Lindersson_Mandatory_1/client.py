@@ -7,6 +7,8 @@ server_port = 12000
 
 def startConnection():
     try:
+        print("username = client1")
+        print("password = client1password")
         username = input("Enter username: ")
         password = input("Enter password: ")
 
@@ -24,7 +26,7 @@ def startConnection():
         server_reply = clientsocket.recv(2048).decode()
 
         if server_reply == "LOGIN_OK":
-            print("Connection established, you can now write messages")
+            print("Connection established, you can now write messages (type 'q' to quit)")
 
             while True:
                 message = input("-")
