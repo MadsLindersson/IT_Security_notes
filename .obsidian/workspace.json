@@ -221,10 +221,14 @@
   },
   "active": "8776f7ce5554670f",
   "lastOpenFiles": [
+    "00_1_semester/05_Kryptography/Day 3/XOR.md",
+    "00_1_semester/05_Kryptography/Day 3/Day 3.md",
+    "00_1_semester/05_Kryptography/Day 3/Frekvensanalyse.md",
+    "00_1_semester/05_Kryptography/Day 3/vigenere.py",
+    "00_1_semester/05_Kryptography/Day 3/caesar_decrypt.py",
     "00_1_semester/05_Kryptography/Day 3/Attachments/Pasted image 20261110132741.png",
     "00_1_semester/05_Kryptography/Day 3/Attachments",
     "00_1_semester/05_Kryptography/Day 3/Ciphertext.md",
-    "00_1_semester/05_Kryptography/Day 3/Day 3.md",
     "00_1_semester/05_Kryptography/Day 3/passwords.txt",
     "00_1_semester/05_Kryptography/Day 3/Verifyer.py",
     "00_1_semester/05_Kryptography/Day 3/hasher.py",
@@ -239,9 +243,7 @@
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/README.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Mandatory 2.md",
-    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Unconfirmed 559602.crdownload",
     "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
-    "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2",
     "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
     "00_1_semester/05_Kryptography/Day 2/Day two.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
@@ -264,8 +266,6 @@
     "00_1_semester/03_System_Security/Mandatories/6/Part 1 - on server.md",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261030110037.png",
     "00_1_semester/03_System_Security/Mandatories/6/Attachments/Pasted image 20261030105825.png",
-    "00_1_semester/03_System_Security/07_30okt_Kerberos/Kerberos.md",
-    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030090148.png",
-    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030085431.png"
+    "00_1_semester/03_System_Security/07_30okt_Kerberos/Attachments/Pasted image 20261030090148.png"
   ]
 }

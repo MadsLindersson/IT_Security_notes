@@ -19,21 +19,23 @@ def startConnection():
             "username": username,
             "password": password
         }
+        
+        json_message = json.dumps(json_login)
+        encrypted_json = encrypt_message(json_message)
+        clientsocket.sendall(encrypted_json.encode("utf-8"))
 
-        json_message = json.dumps(json_login).encode("utf-8")
-        clientsocket.sendall(json_message)
+        server_reply = json.loads(decrypt_message(clientsocket.recv(2048).decode()))
 
-        server_reply = clientsocket.recv(2048).decode()
-
-        if server_reply == "LOGIN_OK":
+        if server_reply.get("status") == "LOGIN_OK":
             print("Connection established, you can now write messages (type 'q' to quit)")
-
+            shift = server_reply.get("shift")
             while True:
                 message = input("-")
                 if message == "quit":
                     break
                 if message:
-                    clientsocket.sendall(message.encode("utf-8"))
+                    encrypted_msg = encrypt_message(message, shift)
+                    clientsocket.sendall(encrypted_msg.encode("utf-8"))
 
             clientsocket.close()
             print("disconnected")
@@ -41,9 +43,28 @@ def startConnection():
             print("Connection could not be established")
             clientsocket.close()
     
-        
     except:
         print("Connection to server could not be established")
         sys.exit(0)
+
+def encrypt_message(msg, shift=3):
+    result = ""
+    for char in msg:
+        ascii_num = ord(char)
+        if 32 <= ascii_num <= 126:
+            result += chr((ascii_num - 32 + shift) % 95 + 32)
+        else:
+            result += char
+    return result
+
+def decrypt_message(msg, shift=3):
+    result = ""
+    for char in msg:
+        ascii_num = ord(char)
+        if 32 <= ascii_num <= 126:
+            result += chr((ascii_num - 32 - shift) % 95 + 32)
+        else:
+            result += char
+    return result
 
 startConnection()
