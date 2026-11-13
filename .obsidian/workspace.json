@@ -23,17 +23,17 @@
             }
           },
           {
-            "id": "e7417276f38f6237",
+            "id": "eae061a6fecf2b87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/7/Part 1.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/7/Part 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 1"
+              "title": "Part 3"
             }
           }
         ],
@@ -228,13 +228,23 @@
   },
   "active": "82f1234171e18768",
   "lastOpenFiles": [
-    "00_1_semester/03_System_Security/Mandatories/7/Part 1.md",
-    "00_1_semester/03_System_Security/Mandatories/7/7.md",
+    "00_1_semester/03_System_Security/Mandatories/7/Part 3.md",
     "00_1_semester/03_System_Security/Mandatories/7/Exercise_7_1__Kerberos_Setup_Walkthrough.pdf",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113142402.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113142318.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113142229.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113135148.png",
+    "00_1_semester/03_System_Security/Mandatories/7/7.md",
+    "00_1_semester/03_System_Security/Mandatories/7/Part 2.md",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113134705.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113134646.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113134610.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113134505.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113134404.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113133607.png",
+    "00_1_semester/03_System_Security/Mandatories/7/Part 1.md",
+    "00_1_semester/03_System_Security/Mandatories/7/Untitled.md",
     "00_1_semester/03_System_Security/Mandatories/7/Part 0.md",
-    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113120340.png",
-    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113115935.png",
-    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261113115105.png",
     "00_1_semester/03_System_Security/08_13nov_remote_access/Remote Access.md",
     "00_1_semester/04_network&communication_security/07_12_nov_TCP Layer Security/TCP Layer Security.md",
     "00_1_semester/03_System_Security/08_13nov_remote_access",
@@ -249,9 +259,7 @@
     "00_1_semester/05_Kryptography/Mandatories/Mads_Lindersson_Mandatory_1/Mads_Lindersson_mandatory_1.pdf",
     "00_1_semester/05_Kryptography/Day 3/XOR.md",
     "00_1_semester/05_Kryptography/Day 3/Frekvensanalyse.md",
-    "00_1_semester/05_Kryptography/Day 3/Attachments/Pasted image 20261110132741.png",
     "00_1_semester/05_Kryptography/Day 3/Ciphertext.md",
-    "00_1_semester/03_System_Security/Mandatories/7/Attachments/Pasted image 20261106151955.png",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/PART_II_STUDENT_GUIDE.md",
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/README.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Router or Layer 3 switch & router on a stick.md",
@@ -264,15 +272,6 @@
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunk Native VLAN.md",
     "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Switch Interface.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Attachments/Pasted image 20261102105332.png",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Part 2.md",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Part 1.md",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Tasks/Attachments/Pasted image 20261030150429.png",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030150157.png",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030135413.png",
-    "00_1_semester/04_network&communication_security/05_29sep_ip_layer/Attachments/Pasted image 20261030132935.png",
-    "00_1_semester/04_network&communication_security/26okt_vlan recap + hands on/VLAN recap & hands on lab.md",
-    "00_1_semester/03_System_Security/Mandatories/6/Central User Management with LDAP.md"
+    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/LAN, BUM & VLAN's.md"
   ]
 }
