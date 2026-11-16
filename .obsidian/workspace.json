@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "64a2f32c28cbc837",
+            "id": "c6c9628a9eaf50ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/03_System_Security/Mandatories/8/Loggin in with a key.md",
+                "file": "00_1_semester/03_System_Security/Mandatories/8/Close the password door.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loggin in with a key"
+              "title": "Close the password door"
             }
           }
         ],
@@ -206,21 +206,24 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "64a2f32c28cbc837",
+  "active": "c6c9628a9eaf50ea",
   "lastOpenFiles": [
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116121151.png",
     "00_1_semester/03_System_Security/Mandatories/8/8.md",
+    "00_1_semester/03_System_Security/Mandatories/8/Close the password door.md",
+    "00_1_semester/03_System_Security/Mandatories/8/No Root Login.md",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116120429.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116120356.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116120040.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116115956.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116114809.png",
     "00_1_semester/03_System_Security/Mandatories/8/Loggin in with a key.md",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Questions.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/image.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116113542.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116113441.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116113346.png",
     "00_1_semester/03_System_Security/Mandatories/8/Which doors are open.md",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101958.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101916.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101751.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101647.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101641.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101556.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101449.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101328.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101233.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116101229.png",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments",
     "00_1_semester/03_System_Security/Mandatories/7/7.md",
     "00_1_semester/03_System_Security/Mandatories/8",
@@ -250,9 +253,6 @@
     "00_1_semester/04_network&communication_security/Mandatories/Mandatory 2/Mandatory 2.md",
     "00_1_semester/04_network&communication_security/Specific notes/Default gateway.md",
     "00_1_semester/04_network&communication_security/06_04nov_IP_layer_partII/IP Layer Part II.md",
-    "00_1_semester/05_Kryptography/Day 2/Day two.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Trunking & Multiswitch VLAN.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/Untitled.md",
-    "00_1_semester/04_network&communication_security/04_22okt_Link layer security Part II VLANs/01_Switches & VLAN's.md"
+    "00_1_semester/05_Kryptography/Day 2/Day two.md"
   ]
 }
