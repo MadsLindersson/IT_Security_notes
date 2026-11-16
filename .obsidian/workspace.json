@@ -35,8 +35,7 @@
               "title": "Fail2ban"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,8 +205,11 @@
       "homework-manager:Open homework": false
     }
   },
-  "active": "f48d29e135f6e485",
+  "active": "2fb7028c3475f64d",
   "lastOpenFiles": [
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133826.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133656.png",
+    "00_1_semester/03_System_Security/Mandatories/8/Fail2ban.md",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133525.png",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133432.png",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133350.png",
@@ -215,13 +217,10 @@
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116133053.png",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116132843.png",
     "00_1_semester/03_System_Security/Mandatories/8/8.md",
-    "00_1_semester/03_System_Security/Mandatories/8/Fail2ban.md",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116132407.png",
     "00_1_semester/03_System_Security/Mandatories/8/Only SSHusers may log in.md",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116131845.png",
     "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116131759.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116131646.png",
-    "00_1_semester/03_System_Security/Mandatories/8/Attachments/Pasted image 20261116131609.png",
     "00_1_semester/03_System_Security/Mandatories/8/Close the password door.md",
     "00_1_semester/03_System_Security/Mandatories/8/No Root Login.md",
     "00_1_semester/03_System_Security/Mandatories/8/Loggin in with a key.md",
