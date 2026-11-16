@@ -10,4 +10,4 @@
 ![[00_1_semester/03_System_Security/Mandatories/6/Part 3]]
 
 # Part 4
-![[Part 4]]
+![[00_1_semester/03_System_Security/Mandatories/6/Part 4]]
