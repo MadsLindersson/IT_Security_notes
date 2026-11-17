@@ -1,0 +1,1 @@
+Ciphertext er den tekst som kommer ud af en kryptografisk funktion. Det er en ulæselig tekst som kun den som har en dekrypteringsnøgle kan få lov at lave om til læselig tekst. 
