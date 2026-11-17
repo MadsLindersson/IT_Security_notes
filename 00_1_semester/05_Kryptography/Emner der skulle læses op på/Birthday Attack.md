@@ -1,0 +1,1 @@
+Handler i princippet om kollisioner i hash funktioner. Chancen for at finde 2 hashværdier der kommer fra det samme input er 2 opløftet i n/2 hvor n er længden på hashværdien. Dvs. at hvis vi gerne vil have en hashværdi på 128 bits sikkerhed, skal den være 256 bits. 

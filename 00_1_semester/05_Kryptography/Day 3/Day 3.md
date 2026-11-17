@@ -1,4 +1,4 @@
-![[Ciphertext]]
+![[00_1_semester/05_Kryptography/Day 3/Ciphertext]]
 
 ![[Frekvensanalyse]]
 

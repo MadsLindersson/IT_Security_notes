@@ -1,0 +1,1 @@
+PreImage resistance er et krav til en hashfunktion. Det handler om at det ikke må være computationally feasible at finde et input som gav en specifik hashværdi. Det skal altså ikke være muligt at tage en hashværdi og så kunne finde det input som gav den hashværdi med det computerkraft som der er tilgængeligt. 
