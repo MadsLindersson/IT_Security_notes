@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="workspace" data-project="{{ project }}">
+  <aside class="steps" aria-label="Certificate workflow steps">
+    <button class="step current" type="button" data-step="0" aria-current="step"><span aria-hidden="true">◐</span>Create CA</button>
+    <button class="step" type="button" data-step="1"><span aria-hidden="true">○</span>Trust concepts</button>
+    <button class="step" type="button" data-step="2"><span aria-hidden="true">○</span>Create CSR</button>
+    <button class="step" type="button" data-step="3"><span aria-hidden="true">○</span>Sign</button>
+    <button class="step" type="button" data-step="4"><span aria-hidden="true">○</span>Inspect</button>
+  </aside>
+  <section class="task">
+    <div class="task-head">
+      <p class="eyebrow">Guided learning · Beginner mode</p>
+      <h1>Guided certificate generation</h1>
+      <p>Follow each step to create a lab CA, request a server certificate, and inspect the results. Private keys remain secret.</p>
+    </div>
+    <details class="concepts">
+      <summary>Quick PKI glossary</summary>
+      <dl>
+        <div><dt>Private key</dt><dd>A secret key that must be protected and never shared.</dd></div>
+        <div><dt>CSR</dt><dd>A request containing a public key and identity information for a Certificate Authority to review and sign.</dd></div>
+        <div><dt>Certificate Authority</dt><dd>An entity that signs certificates to connect an identity with a public key.</dd></div>
+      </dl>
+    </details>
+    {% include "create_ca.html" %}
+    {% include "trust_ca.html" %}
+    {% include "create_leaf.html" %}
+    {% include "sign_leaf.html" %}
+    {% include "summary.html" %}
+  </section>
+</div>
+<script id="initial-state" type="application/json">{{ state|tojson }}</script>
+<script src="{{ url_for('static', filename='js/beginner.js') }}"></script>
+{% endblock %}

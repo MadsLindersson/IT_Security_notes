@@ -1,0 +1,24 @@
+<article class="panel active" data-panel="0">
+  <h2>Step 0 · Create a Certificate Authority</h2>
+  <p>A Certificate Authority (CA) signs other certificates. You will create its private key and certificate. The certificate can be shared; the private key must stay secret.</p>
+  <form id="ca-form" class="form-grid">
+    <label>Project name <input name="project" required pattern="[A-Za-z0-9_\-]{1,64}" value="{{ project or 'student-lab' }}"><small class="field-help">Letters, numbers, dashes, and underscores only.</small></label>
+    <label>CA name <input name="ca_name" required value="EK Student Root CA"><small class="field-help">A readable name for your lab Certificate Authority.</small></label>
+    <label>Certificate lifetime (days) <input name="days" type="number" min="1" max="10000" value="3650"><small class="field-help">How long the CA certificate is valid.</small></label>
+    <label>Key algorithm
+      <select name="algorithm">
+        <option value="rsa2048">RSA 2048</option>
+        <option value="rsa3072" selected>RSA 3072</option>
+        <option value="rsa4096">RSA 4096</option>
+        <option value="ecp256">EC P-256</option>
+      </select>
+      <small class="field-help">RSA 3072 is the default for this lab.</small>
+    </label>
+    <button type="button" class="ghost toggle-optional">+ Optional identity fields</button>
+    <div class="optional-fields">
+      {% include "_identity_fields.html" %}
+    </div>
+    <button class="primary" type="submit">Generate CA</button>
+  </form>
+  <div class="result" id="ca-result" aria-live="polite"></div>
+</article>

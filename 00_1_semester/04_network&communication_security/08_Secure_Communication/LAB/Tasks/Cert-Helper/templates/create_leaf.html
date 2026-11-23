@@ -1,0 +1,30 @@
+<article class="panel" data-panel="2">
+  <h2>Step 2 · Create a server request</h2>
+  <p>The server needs its own identity. Its private key stays secret; the Certificate Signing Request (CSR) contains the public key and requested identity.</p>
+  <form id="leaf-form" class="form-grid">
+    <label>Primary DNS name / hostname <input name="hostname" required value="server.lab"><small class="field-help">For example, server.lab. This name is added to the certificate.</small></label>
+    <label>Key algorithm
+      <select name="algorithm">
+        <option value="rsa2048" selected>RSA 2048</option>
+        <option value="rsa3072">RSA 3072</option>
+        <option value="rsa4096">RSA 4096</option>
+        <option value="ecp256">EC P-256</option>
+      </select>
+      <small class="field-help">Choose the key type for this server identity.</small>
+    </label>
+    <section class="san-editor">
+      <h3>DNS names</h3>
+      <div id="dns-list"></div>
+      <button type="button" class="ghost add-san" data-kind="dns">+ Add DNS name</button>
+      <h3>IP addresses</h3>
+      <div id="ip-list"></div>
+      <button type="button" class="ghost add-san" data-kind="ip">+ Add IP address</button>
+    </section>
+    <button type="button" class="ghost toggle-optional">+ Optional identity fields</button>
+    <div class="optional-fields">
+      {% include "_identity_fields.html" %}
+    </div>
+    <button class="primary" type="submit">Generate Private Key + CSR</button>
+  </form>
+  <div class="result" id="leaf-result" aria-live="polite"></div>
+</article>

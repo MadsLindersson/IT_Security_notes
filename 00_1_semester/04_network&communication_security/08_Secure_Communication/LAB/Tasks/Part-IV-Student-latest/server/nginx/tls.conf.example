@@ -1,0 +1,5 @@
+# Part IV: implement your TLS configuration.
+# Empty certificate directory: /etc/nginx/certs/
+# Empty private-key directory: /etc/nginx/private/
+# Port 443 is an inactive placeholder in conf.d/default.conf.
+# No certificate, key or TLS configuration is supplied.

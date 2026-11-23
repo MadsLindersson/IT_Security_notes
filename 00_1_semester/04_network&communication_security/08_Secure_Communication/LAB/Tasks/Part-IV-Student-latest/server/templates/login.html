@@ -1,0 +1,26 @@
+<div class="login-intro">
+  <p class="eyebrow">YOUR STAFF PORTAL</p>
+  <h1>Welcome to<br> MoSec Ltd.</h1>
+  <p class="intro-copy">Sign in to access your staff dashboard, company information and employee profile.</p>
+  <ul class="intro-features">
+    <li><span class="feature-mark" aria-hidden="true">01</span><div><strong>Plan your week</strong><span>Meetings, rooms and upcoming team sessions.</span></div></li>
+    <li><span class="feature-mark" aria-hidden="true">02</span><div><strong>Review your work</strong><span>Completed tasks and team participation, at a glance.</span></div></li>
+    <li><span class="feature-mark" aria-hidden="true">03</span><div><strong>Stay up to date</strong><span>The latest updates from across the company.</span></div></li>
+  </ul>
+  <p class="term-label">AUTUMN 2026 <span>Staff services</span></p>
+</div>
+<section class="login-card" aria-labelledby="login-title">
+  <p class="eyebrow">WELCOME TO MOSEC LTD.</p>
+  <h2 id="login-title">Sign in</h2>
+  <p class="muted">Access your staff dashboard and employee profile.</p>
+  $error
+  <form action="/login" method="post" enctype="application/x-www-form-urlencoded" class="login-form">
+    <label for="username">Username</label>
+    <input id="username" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" required>
+    <label for="password">Password</label>
+    <div class="password-field"><input id="password" name="password" type="password" autocomplete="current-password" required><button type="button" class="password-toggle" data-password-toggle aria-controls="password" aria-pressed="false" hidden>Show</button></div>
+    <button type="submit" class="button primary sign-in">Sign in</button>
+  </form>
+  <details class="login-help"><summary>Need help signing in?</summary><p>Contact your MoSec Ltd. administrator for help with your employee account.</p></details>
+  <div class="login-note">Employee access · MoSec Ltd.</div>
+</section>

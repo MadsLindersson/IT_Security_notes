@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>IPv4 Forwarding</h2>
+  <form method="post" action="{{ url_for('set_forwarding') }}" class="button-row">
+    <button name="enabled" value="1" class="{{ 'active' if forwarding else '' }}">ON</button>
+    <button name="enabled" value="0" class="{{ 'active' if not forwarding else '' }}">OFF</button>
+  </form>
+</section>
+<section class="panel">
+  <h2>Default Route</h2>
+  {% if default_route %}
+    <p><strong>{{ default_route.destination }}</strong> via {{ default_route.gateway }} dev {{ default_route.role }}</p>
+  {% else %}
+    <p>No default route is currently installed.</p>
+  {% endif %}
+  <p class="hint">The default route is used when no more specific route matches the destination.</p>
+</section>
+<section class="panel">
+  <h2>Routing Table</h2>
+  <table>
+    <thead><tr><th>Destination</th><th>Gateway</th><th>Interface</th><th>Type</th><th></th></tr></thead>
+    <tbody>
+      {% for route in routes %}
+        <tr>
+          <td>{{ route.destination }}</td>
+          <td>{{ route.gateway }}</td>
+          <td>{{ route.role }}</td>
+          <td><span class="badge">{{ route.type }}</span></td>
+          <td>
+            {% if route.deletable %}
+              <form method="post" action="{{ url_for('delete_route') }}">
+                <input type="hidden" name="destination" value="{{ route.destination }}">
+                <input type="hidden" name="gateway" value="{{ route.gateway }}">
+                <input type="hidden" name="interface" value="{{ route.interface }}">
+                <button type="submit" class="secondary">Delete</button>
+              </form>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+<section class="panel">
+  <h2>Add Static Route</h2>
+  <form method="post" action="{{ url_for('add_route') }}" class="inline-form">
+    <label>Destination<input name="destination" placeholder="Destination network" required></label>
+    <label>Gateway<input name="gateway" placeholder="Next-hop IPv4 address" required></label>
+    <label>Interface<select name="interface"><option value="">Auto</option>{% for iface in interfaces %}<option value="{{ iface.name }}">{{ iface.role }} ({{ iface.name }})</option>{% endfor %}</select></label>
+    <button type="submit">Add Route</button>
+  </form>
+</section>
+{% endblock %}

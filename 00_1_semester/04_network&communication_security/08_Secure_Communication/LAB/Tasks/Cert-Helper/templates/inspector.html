@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="doc-page">
+  <h1>Certificate Inspector</h1>
+  <p>Inspect public certificate and CSR details for a generated project. Private-key contents are not displayed.</p>
+  <div class="inspector-controls">
+    <label>Project
+      <select id="inspect-project">
+        {% for item in projects %}<option value="{{ item.name }}">{{ item.name }}</option>{% endfor %}
+      </select>
+    </label>
+    <label>Certificate
+      <select id="inspect-kind">
+        <option value="ca_cert">CA certificate</option>
+        <option value="csr">CSR</option>
+        <option value="leaf_cert">Leaf certificate</option>
+      </select>
+    </label>
+  </div>
+  <div id="inspect-output" class="inspect-output" aria-live="polite"></div>
+  <button class="ghost" id="raw-toggle" type="button">Show raw OpenSSL output</button>
+  <pre class="raw" id="raw-output"></pre>
+</section>
+<script src="{{ url_for('static', filename='js/inspector.js') }}"></script>
+{% endblock %}

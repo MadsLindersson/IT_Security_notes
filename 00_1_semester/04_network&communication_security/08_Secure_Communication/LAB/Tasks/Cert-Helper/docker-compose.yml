@@ -1,0 +1,11 @@
+services:
+  certificate-generator-helper:
+    build: .
+    env_file:
+      - .env
+    environment:
+      APP_PORT: "${APP_PORT}"
+    ports:
+      - "${APP_PORT}:${APP_PORT}"
+    volumes:
+      - ./certificates:/app/certificates

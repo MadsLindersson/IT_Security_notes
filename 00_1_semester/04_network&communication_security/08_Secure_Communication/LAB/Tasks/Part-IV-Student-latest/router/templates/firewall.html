@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>Firewall / ACL</h2>
+  <p class="hint">ACL rules are IP-based. Firewall rules add incoming zone, protocol, destination port, and connection state.</p>
+</section>
+
+<section class="panel">
+  <h2>Firewall Status</h2>
+  <div class="status-grid compact">
+    <div>
+      <span>Firewall</span>
+      <strong class="{{ 'ok' if firewall_enabled else 'off' }}">{{ 'Enabled' if firewall_enabled else 'No ACL rules' }}</strong>
+    </div>
+    <div>
+      <span>Default action</span>
+      <strong>{{ default_action }}</strong>
+    </div>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Effective Rule Order</h2>
+  <p class="hint">Rules are evaluated from top to bottom. The first matching rule decides the action.</p>
+  <table>
+    <thead>
+      <tr><th>Priority</th><th>Type</th><th>Incoming Zone</th><th>Source</th><th>Destination</th><th>Protocol</th><th>Dst Port</th><th>State</th><th>Action</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      {% for rule in effective_rules %}
+        <tr>
+          <td>{{ rule.line }}</td>
+          <td>{{ rule.rule_type }}</td>
+          <td>{{ rule.zone }}</td>
+          <td>{{ rule.source }}</td>
+          <td>{{ rule.destination }}</td>
+          <td>{{ rule.protocol }}</td>
+          <td>{{ rule.destination_port }}</td>
+          <td>{{ rule.state }}</td>
+          <td><span class="badge">{{ rule.action }}</span></td>
+          <td>{{ rule.description or '-' }}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="10">No rules are configured.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <h2>ACL Rules</h2>
+  <p class="hint">IP-based rules controlling which hosts or networks may communicate.</p>
+  <table>
+    <thead>
+      <tr><th>Priority</th><th>Description</th><th>Source</th><th>Destination</th><th>Action</th><th>Hits</th><th>Order</th><th></th></tr>
+    </thead>
+    <tbody>
+      {% for rule in acl_rules %}
+        <tr>
+          <td>{{ rule.line }}</td>
+          <td>{{ rule.description or '-' }}</td>
+          <td>{{ rule.source }}</td>
+          <td>{{ rule.destination }}</td>
+          <td><span class="badge">{{ rule.action }}</span></td>
+          <td>{{ rule.packets }}</td>
+          <td class="button-row">
+            <form method="post" action="{{ url_for('firewall_move') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <input type="hidden" name="direction" value="up">
+              <button type="submit" class="secondary">Up</button>
+            </form>
+            <form method="post" action="{{ url_for('firewall_move') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <input type="hidden" name="direction" value="down">
+              <button type="submit" class="secondary">Down</button>
+            </form>
+          </td>
+          <td>
+            <form method="post" action="{{ url_for('firewall_delete') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <button type="submit" class="secondary">Delete</button>
+            </form>
+          </td>
+        </tr>
+      {% else %}
+        <tr><td colspan="8">No ACL rules are configured.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <h2>Firewall Rules</h2>
+  <p class="hint">Service- and state-aware rules controlling protocol, ports, direction, and connection state.</p>
+  <table>
+    <thead>
+      <tr><th>Priority</th><th>Description</th><th>Incoming Interface</th><th>Source</th><th>Destination</th><th>Protocol</th><th>Dst Port</th><th>State</th><th>Action</th><th>Hits</th><th>Order</th><th></th></tr>
+    </thead>
+    <tbody>
+      {% for rule in firewall_rules %}
+        <tr>
+          <td>{{ rule.line }}</td>
+          <td>{{ rule.description or '-' }}</td>
+          <td>{{ rule.zone }}</td>
+          <td>{{ rule.source }}</td>
+          <td>{{ rule.destination }}</td>
+          <td>{{ rule.protocol }}</td>
+          <td>{{ rule.destination_port }}</td>
+          <td>{{ rule.state }}</td>
+          <td><span class="badge">{{ rule.action }}</span></td>
+          <td>{{ rule.packets }}</td>
+          <td class="button-row">
+            <form method="post" action="{{ url_for('firewall_move') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <input type="hidden" name="direction" value="up">
+              <button type="submit" class="secondary">Up</button>
+            </form>
+            <form method="post" action="{{ url_for('firewall_move') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <input type="hidden" name="direction" value="down">
+              <button type="submit" class="secondary">Down</button>
+            </form>
+          </td>
+          <td>
+            <form method="post" action="{{ url_for('firewall_delete') }}">
+              <input type="hidden" name="line" value="{{ rule.line }}">
+              <button type="submit" class="secondary">Delete</button>
+            </form>
+          </td>
+        </tr>
+      {% else %}
+        <tr><td colspan="12">No firewall rules are configured.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <h2>ACL</h2>
+  <p class="hint">IP-based rules controlling which hosts or networks may communicate.</p>
+  <form method="post" action="{{ url_for('firewall_add') }}" class="firewall-form">
+    <label>Action
+      <select name="action" required>
+        <option value="ALLOW">ALLOW</option>
+        <option value="DENY">DENY</option>
+      </select>
+    </label>
+    <input type="hidden" name="zone" value="">
+    <label>Source
+      <input name="source" placeholder="IPv4 host or CIDR" required>
+    </label>
+    <label>Destination
+      <input name="destination" placeholder="IPv4 host or CIDR" required>
+    </label>
+    <label>Description
+      <input name="description" placeholder="admin to printer" maxlength="30">
+    </label>
+    <button type="submit">Add Rule</button>
+  </form>
+</section>
+
+<section class="panel">
+  <h2>Firewall</h2>
+  <p class="hint">Service- and state-aware rules controlling protocol, ports, direction, and connection state.</p>
+  <form method="post" action="{{ url_for('firewall_add') }}" class="firewall-form">
+    <label>Action
+      <select name="action" required>
+        <option value="ALLOW">ALLOW</option>
+        <option value="DENY">DENY</option>
+      </select>
+    </label>
+    <label>Incoming Zone
+      <select name="zone" required>
+        {% for zone in zones %}
+          <option value="{{ zone.role }}">{{ zone.role }} LAN</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Source
+      <input name="source" placeholder="IPv4 host or CIDR" required>
+    </label>
+    <label>Destination
+      <input name="destination" placeholder="IPv4 host or CIDR" required>
+    </label>
+    <label>Protocol
+      <select name="protocol" required>
+        <option value="ANY">ANY</option>
+        <option value="TCP">TCP</option>
+        <option value="UDP">UDP</option>
+        <option value="ICMP">ICMP</option>
+      </select>
+    </label>
+    <label>Destination Port
+      <input name="destination_port" placeholder="TCP/UDP port">
+    </label>
+    <label>Connection State
+      <select name="state" required>
+        <option value="ANY">ANY</option>
+        <option value="NEW">NEW</option>
+        <option value="ESTABLISHED">ESTABLISHED</option>
+        <option value="RELATED">RELATED</option>
+      </select>
+    </label>
+    <label>Description
+      <input name="description" placeholder="guest anti-spoof" maxlength="30">
+    </label>
+    <button type="submit">Add Firewall Rule</button>
+  </form>
+</section>
+
+<section class="panel">
+  <h2>Reset Firewall Rules</h2>
+  <form method="post" action="{{ url_for('firewall_reset') }}">
+    <button type="submit" class="danger">Restore inherited rules</button>
+  </form>
+</section>
+{% endblock %}

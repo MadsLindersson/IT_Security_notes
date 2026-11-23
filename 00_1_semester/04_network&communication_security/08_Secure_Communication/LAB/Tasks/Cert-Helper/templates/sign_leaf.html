@@ -1,0 +1,11 @@
+<article class="panel" data-panel="3">
+  <h2>Step 3 · Sign the server certificate</h2>
+  <p>The Certificate Authority signs the CSR. This links the requested identity and public key to the CA; signing alone does not establish trust.</p>
+  <button class="primary" id="sign-leaf" type="button">Sign Certificate with CA</button>
+  <div id="chain-visual" class="chain">
+    <div><span>Certificate Authority</span><strong id="visual-ca">Root CA</strong><em>CA: TRUE</em></div>
+    <p>signed</p>
+    <div><span>Server Certificate</span><strong id="visual-leaf">server.lab</strong><em>CA: FALSE</em></div>
+  </div>
+  <div class="result" id="sign-result" aria-live="polite"></div>
+</article>

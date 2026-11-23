@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="advanced">
+  <p class="eyebrow">Technical reference · Advanced mode</p>
+  <h1>Advanced certificate workflow</h1>
+  <p>Use these OpenSSL examples to explore the same certificate chain in more detail. They do not add options beyond what this lab supports.</p>
+  <p class="notice"><strong>Lab only:</strong> creating or signing a certificate does not establish trust. Only import the lab CA when instructed, and remove it after the exercise.</p>
+  {% set commands = [
+    ('01', 'Generate CA private key', 'openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out certificates/student-lab/ca/ca.key.pem', 'Use RSA 2048, 3072, or 4096 by changing rsa_keygen_bits. For EC P-256 use openssl ecparam -name prime256v1 -genkey -noout -out ca.key.pem.'),
+    ('02', 'Generate CA certificate', 'openssl req -x509 -new -key ca.key.pem -sha256 -days 3650 -subj "/CN=EK Student Root CA" -out ca.cert.pem -extfile ca.ext -extensions v3_ca', '-x509 creates a self-signed certificate. -new starts a new request. -key selects the private key.'),
+    ('03', 'Inspect CA certificate', 'openssl x509 -in ca.cert.pem -text -noout', 'Confirm CA:TRUE, keyCertSign, and the SHA-256 fingerprint.'),
+    ('04', 'Trust CA', 'sudo cp ca.cert.pem /usr/local/share/ca-certificates/student-ca.crt\nsudo update-ca-certificates', 'Windows, macOS, and Firefox require importing the CA into their trust settings.'),
+    ('05', 'Generate leaf private key', 'openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out server.key.pem', 'The leaf private key belongs to the server identity.'),
+    ('06', 'Generate CSR', 'openssl req -new -key server.key.pem -subj "/CN=server.lab" -out server.csr.pem -config server-csr.cnf', 'The CSR carries the public key and requested identity, not the private key.'),
+    ('07', 'Define SANs', '[v3_req]\nsubjectAltName = DNS:server.lab, DNS:www.server.lab, IP:10.10.0.70', 'Modern certificates must use Subject Alternative Names, not only Common Name.'),
+    ('08', 'Sign CSR with CA', 'openssl x509 -req -in server.csr.pem -CA ca.cert.pem -CAkey ca.key.pem -CAcreateserial -out server.cert.pem -days 825 -sha256 -extfile server-cert.ext -extensions v3_leaf', '-CA and -CAkey identify the signing CA. -extfile supplies certificate extensions.'),
+    ('09', 'Inspect leaf certificate', 'openssl x509 -in server.cert.pem -text -noout', 'Confirm CA:FALSE, serverAuth, and the expected SANs.')
+  ] %}
+  {% for n, title, command, explanation in commands %}
+  <article class="command-doc">
+    <h2><span>{{ n }}</span>{{ title }}</h2>
+    <div class="command-box"><pre><code>{{ command }}</code></pre><button class="copy" type="button">Copy</button></div>
+    <p>{{ explanation }}</p>
+  </article>
+  {% endfor %}
+  <section class="trust-note">
+    <h2>Trust Guidance</h2>
+    <p>Only trust the CA created for this lab. Remove it after the exercise if no longer required.</p>
+    <div class="trust-grid">
+      <div>
+        <h3>Kali / Ubuntu</h3>
+        <pre><code>sudo cp ca.cert.pem /usr/local/share/ca-certificates/student-ca.crt
+sudo update-ca-certificates</code></pre>
+      </div>
+      <div>
+        <h3>Windows</h3>
+        <p>Import <code>ca.cert.pem</code> into Trusted Root Certification Authorities. Administrator privileges may be required.</p>
+        <pre><code>certutil -addstore -f Root ca.cert.pem</code></pre>
+      </div>
+      <div>
+        <h3>macOS</h3>
+        <p>Use Keychain Access to import the certificate and set it to Always Trust for the lab.</p>
+        <pre><code>sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ca.cert.pem</code></pre>
+      </div>
+      <div>
+        <h3>Firefox</h3>
+        <p>Open Firefox certificate settings and import <code>ca.cert.pem</code> as a trusted certificate authority for the lab.</p>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

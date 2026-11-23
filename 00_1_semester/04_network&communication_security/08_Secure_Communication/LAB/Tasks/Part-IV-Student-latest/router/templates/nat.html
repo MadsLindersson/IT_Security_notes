@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>IPv4 NAT / Masquerading</h2>
+  <div class="status-grid compact">
+    <div><span>Status</span><strong class="{{ 'ok' if nat else 'off' }}">{{ 'ON' if nat else 'OFF' }}</strong></div>
+    <div><span>Outbound Interface</span><strong>{{ wan.role if wan else 'WAN not found' }} {{ '(' ~ wan.name ~ ')' if wan else '' }}</strong></div>
+    <div><span>Packets translated</span><strong>{{ counters.packets }}</strong></div>
+    <div><span>Bytes translated</span><strong>{{ counters.bytes }}</strong></div>
+  </div>
+  <form method="post" action="{{ url_for('nat_toggle') }}" class="button-row">
+    <button name="enabled" value="1" class="{{ 'active' if nat else '' }}">ON</button>
+    <button name="enabled" value="0" class="{{ 'active' if not nat else '' }}">OFF</button>
+  </form>
+</section>
+{% endblock %}

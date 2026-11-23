@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>Help</h2>
+  <p class="hint">Part IV starts with routing, NAT and the HTTP-only security policy already configured. The exercise covers TLS, trust and proxy access. HTTPS permissions and certificates remain student work.</p>
+  <table>
+    <thead><tr><th>Task</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr><td>Verify router LAN IPv4 addresses</td><td>Interfaces</td></tr>
+      <tr><td>Inspect real routes from Linux</td><td>Routing</td></tr>
+      <tr><td>Verify IPv4 forwarding is on</td><td>Routing</td></tr>
+      <tr><td>Verify masquerading is on</td><td>NAT</td></tr>
+      <tr><td>Add IP-only source/destination rules</td><td>Firewall / ACL -> ACL</td></tr>
+      <tr><td>Add TCP, UDP, ICMP, port, and connection-state rules</td><td>Firewall / ACL -> Firewall</td></tr>
+      <tr><td>Use Effective Rule Order, Move Up, and Move Down</td><td>Firewall / ACL</td></tr>
+      <tr><td>Restore HTTP-only ACL/firewall rules and web NAT</td><td>Firewall / ACL</td></tr>
+    </tbody>
+  </table>
+</section>
+{% endblock %}

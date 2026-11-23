@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="home-layout">
+  <section class="intro">
+    <div>
+      <p class="eyebrow">EK · Network &amp; Communication Security</p>
+      <h1>Learn how digital certificates work</h1>
+      <p>Build a small certificate chain and explore the roles of keys, Certificate Signing Requests, and Certificate Authorities.</p>
+      <div class="mode-actions">
+        <a class="button primary" href="{{ url_for('beginner') }}">Start Beginner Mode</a>
+        <a class="button" href="{{ url_for('advanced') }}">Open Advanced Mode</a>
+      </div>
+      <p class="notice"><strong>Remember:</strong> creating or signing a certificate does not automatically make it trusted.</p>
+    </div>
+    <div class="cert-mini" aria-label="A Certificate Authority signs a server certificate">
+      <div><span class="mini-label">Certificate Authority</span><strong>Lab CA</strong></div>
+      <span class="chain-arrow" aria-hidden="true">↓ signs</span>
+      <div><span class="mini-label">Server certificate</span><strong>server.lab</strong></div>
+    </div>
+  </section>
+  <section class="learning-section" aria-labelledby="learning-title">
+    <div class="section-heading">
+      <p class="eyebrow">Your learning goals</p>
+      <h2 id="learning-title">What will you learn?</h2>
+    </div>
+    <div class="learning-grid">
+      <article class="learning-card"><span class="card-number">01</span><h3>Keys and identity</h3><p>How a private key stays secret while its matching public key can be shared.</p></article>
+      <article class="learning-card"><span class="card-number">02</span><h3>Requests and certificates</h3><p>How a CSR asks a Certificate Authority to sign a public key and identity.</p></article>
+      <article class="learning-card"><span class="card-number">03</span><h3>Signing and trust</h3><p>Why signing is different from explicitly trusting and validating a certificate.</p></article>
+    </div>
+  </section>
+</div>
+{% if projects %}
+<section class="resume">
+  <div class="section-heading">
+    <p class="eyebrow">Continue your lab</p>
+    <h2>Existing projects</h2>
+  </div>
+  <div class="project-list">
+    {% for item in projects %}
+    <a class="project-link" href="{{ url_for('beginner', project=item.name) }}">{{ item.name }}<span aria-hidden="true">→</span></a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Certificate Generation Lab | EK{% endblock %}</title>
+  <script>
+    (() => {
+      let theme;
+      try {
+        theme = localStorage.getItem("ek-lab-theme");
+      } catch (error) {
+        theme = null;
+      }
+      if (theme !== "light" && theme !== "dark") {
+        theme = window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="{{ url_for('index') }}">
+      <img class="ek-logo" src="{{ url_for('static', filename='img/ek-logo.jpeg') }}" alt="EK – Erhvervsakademi København">
+      <span class="brand-copy">
+        <strong>Certificate Generation Lab</strong>
+        <small>Network &amp; Communication Security</small>
+      </span>
+    </a>
+    <nav class="mode-switch" aria-label="Learning mode">
+      <a data-mode-link href="{{ url_for('beginner') }}"{% if request.endpoint == 'beginner' %} aria-current="page"{% endif %}>Beginner</a>
+      <a data-mode-link href="{{ url_for('advanced') }}"{% if request.endpoint == 'advanced' %} aria-current="page"{% endif %}>Advanced</a>
+    </nav>
+    <div class="header-tools">
+      <a class="inspector-link" href="{{ url_for('inspector') }}"{% if request.endpoint == 'inspector' %} aria-current="page"{% endif %}>Inspector</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode">
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <span>EK – Erhvervsakademi København</span>
+    <span>Developed by <a href="mailto:moms@ek.dk">moms@ek.dk</a></span>
+  </footer>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

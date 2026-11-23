@@ -1,0 +1,52 @@
+[
+  {
+    "priority": 1,
+    "description": "established-replies",
+    "type": "Firewall"
+  },
+  {
+    "priority": 2,
+    "description": "admin-ssh",
+    "type": "Firewall"
+  },
+  {
+    "priority": 3,
+    "description": "other-ssh-deny",
+    "type": "Firewall"
+  },
+  {
+    "priority": 4,
+    "description": "admin-http",
+    "type": "Firewall"
+  },
+  {
+    "priority": 5,
+    "description": "employee-http",
+    "type": "Firewall"
+  },
+  {
+    "priority": 6,
+    "description": "wan-http",
+    "type": "Firewall"
+  },
+  {
+    "priority": 7,
+    "description": "admin-internet",
+    "type": "Firewall"
+  },
+  {
+    "priority": 8,
+    "description": "employee-internet",
+    "type": "Firewall"
+  },
+  {
+    "priority": 9,
+    "description": "server-internet",
+    "type": "Firewall"
+  },
+  {
+    "priority": 10,
+    "description": "default-deny",
+    "type": "ACL"
+  }
+]

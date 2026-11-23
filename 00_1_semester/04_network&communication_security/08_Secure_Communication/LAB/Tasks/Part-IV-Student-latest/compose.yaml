@@ -1,0 +1,212 @@
+name: mosec-router-lab
+
+services:
+  router:
+    build: ./router
+    container_name: router
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080/login >/dev/null && iptables -S MOSEC_ACL | grep -q 'default-deny'"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+    hostname: mosec-router
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    privileged: true
+    environment:
+      FLASK_SECRET_KEY: "change-this-lab-secret"
+      ROUTER_USERNAME: "admin"
+      ROUTER_PASSWORD: "admin"
+      EXPECTED_LINKS: "eth0=02:42:6d:02:00:00,eth1=02:42:6d:02:00:01,eth2=02:42:6d:02:00:02,eth3=02:42:6d:02:00:03,eth4=02:42:6d:02:00:04,eth5=02:42:6d:02:00:05"
+      WAN_INTERFACE: "eth0"
+      ROLE_INTERFACES: "Admin=eth1,Employee=eth2,Server=eth3,Guest=eth4,Printer=eth5"
+      LAN_INTERFACES: "eth1 eth2 eth3 eth4 eth5"
+      PART2_AUTOCONFIG: "1"
+      PART4_AUTOCONFIG: "1"
+    networks:
+      a_mgmt_net:
+        ipv4_address: 172.30.255.2
+        interface_name: eth0
+        mac_address: 02:42:6d:02:00:00
+        gw_priority: 1
+        priority: 1000
+      admin_net:
+        interface_name: eth1
+        mac_address: 02:42:6d:02:00:01
+        priority: 100
+      employee_net:
+        interface_name: eth2
+        mac_address: 02:42:6d:02:00:02
+        priority: 90
+      server_net:
+        interface_name: eth3
+        mac_address: 02:42:6d:02:00:03
+        priority: 80
+      guest_net:
+        interface_name: eth4
+        mac_address: 02:42:6d:02:00:04
+        priority: 70
+      printer_net:
+        interface_name: eth5
+        mac_address: 02:42:6d:02:00:05
+        priority: 60
+
+  router-gui:
+    build: ./gui-proxy
+    container_name: router-gui
+    hostname: router-gui
+    depends_on:
+      - router
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:8082:8082"
+      - "127.0.0.1:80:80"
+      - "127.0.0.1:443:443"
+    networks:
+      a_mgmt_net: {}
+
+  admin:
+    build: ./endpoints
+    container_name: admin
+    hostname: admin
+    depends_on:
+      router:
+        condition: service_healthy
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      MODE: "segmented"
+      STUDENT_CIDR: "10.10.0.10/27"
+      STUDENT_GATEWAY: "10.10.0.1"
+    networks:
+      admin_net:
+        interface_name: eth0
+
+  employee:
+    build: ./endpoints
+    container_name: employee
+    hostname: employee
+    depends_on:
+      router:
+        condition: service_healthy
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      MODE: "segmented"
+      STUDENT_CIDR: "10.10.0.42/27"
+      STUDENT_GATEWAY: "10.10.0.33"
+    networks:
+      employee_net:
+        interface_name: eth0
+
+  server:
+    build: ./server
+    container_name: server
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080 >/dev/null && curl -fsS http://localhost/ >/dev/null && nc -z localhost 22"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+    hostname: server
+    depends_on:
+      router:
+        condition: service_healthy
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      MODE: "segmented"
+      PART4_AUTOCONFIG: "1"
+      STUDENT_CIDR: "10.10.0.74/27"
+      STUDENT_GATEWAY: "10.10.0.65"
+    networks:
+      server_net:
+        interface_name: eth0
+
+  guest:
+    build: ./endpoints
+    container_name: guest
+    hostname: guest
+    depends_on:
+      router:
+        condition: service_healthy
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      MODE: "segmented"
+      STUDENT_CIDR: "10.10.0.106/27"
+      STUDENT_GATEWAY: "10.10.0.97"
+    networks:
+      guest_net:
+        interface_name: eth0
+
+  printer:
+    build: ./printer
+    container_name: printer
+    hostname: printer
+    depends_on:
+      router:
+        condition: service_healthy
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      MODE: "segmented"
+      STUDENT_CIDR: "10.10.0.138/27"
+      STUDENT_GATEWAY: "10.10.0.129"
+    networks:
+      printer_net:
+        interface_name: eth0
+
+
+networks:
+  a_mgmt_net:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.30.255.0/24
+        gateway: 172.30.255.1
+  admin_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'
+    ipam:
+      config:
+      - subnet: 192.0.2.0/28
+        gateway: 192.0.2.14
+  server_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'
+    ipam:
+      config:
+      - subnet: 192.0.2.32/28
+        gateway: 192.0.2.46
+  guest_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'
+    ipam:
+      config:
+      - subnet: 192.0.2.48/28
+        gateway: 192.0.2.62
+  printer_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'
+    ipam:
+      config:
+      - subnet: 192.0.2.64/28
+        gateway: 192.0.2.78
+  employee_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'
+    ipam:
+      config:
+      - subnet: 192.0.2.16/28
+        gateway: 192.0.2.30

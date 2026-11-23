@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>Interfaces</h2>
+  <table>
+    <thead><tr><th>Role</th><th>Interface</th><th>IPv4 address</th><th>CIDR</th><th>Status</th><th>Apply</th></tr></thead>
+    <tbody>
+      {% for iface in interfaces %}
+        {% if iface.role != 'WAN' %}
+        <tr>
+          <form method="post" action="{{ url_for('update_interface') }}">
+            <td>{{ iface.role }}<input type="hidden" name="role" value="{{ iface.role }}"></td>
+            <td>{{ iface.name }}</td>
+            <td><input name="address" value="" placeholder="IPv4 address" inputmode="decimal" required></td>
+            <td><input name="prefix" value="" placeholder="Prefix" inputmode="numeric" required></td>
+            <td>{{ iface.state }}</td>
+            <td><button type="submit">Apply</button></td>
+          </form>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+<section class="panel">
+  <h2>Current State</h2>
+  <table>
+    <thead><tr><th>Role</th><th>Interface</th><th>IPv4 address</th><th>Prefix</th><th>Status</th></tr></thead>
+    <tbody>
+      {% for iface in interfaces %}
+        <tr>
+          <td>{{ iface.role }}</td>
+          <td>{{ iface.name }}</td>
+          <td>{{ iface.address if iface.configured else 'Unconfigured' }}</td>
+          <td>{{ '/' ~ iface.prefix if iface.configured else 'Unconfigured' }}</td>
+          <td>{{ iface.state }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

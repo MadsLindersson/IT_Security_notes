@@ -1,0 +1,29 @@
+<article class="panel" data-panel="1">
+  <h2>Step 1 · Understand Certificate Authority trust</h2>
+  <p>Creating or signing a certificate does not make it trusted. Trust must be configured separately in an operating system or browser, and this lab cannot verify that configuration.</p>
+  <div class="tabs" role="tablist" aria-label="Trust setup guidance">
+    <button class="tab active" id="trust-tab-label-linux" type="button" role="tab" aria-selected="true" aria-controls="trust-tab-linux" data-tab="linux">Kali / Ubuntu</button>
+    <button class="tab" id="trust-tab-label-windows" type="button" role="tab" aria-selected="false" aria-controls="trust-tab-windows" data-tab="windows">Windows</button>
+    <button class="tab" id="trust-tab-label-macos" type="button" role="tab" aria-selected="false" aria-controls="trust-tab-macos" data-tab="macos">macOS</button>
+    <button class="tab" id="trust-tab-label-firefox" type="button" role="tab" aria-selected="false" aria-controls="trust-tab-firefox" data-tab="firefox">Firefox</button>
+  </div>
+  <div class="tab-panel active" id="trust-tab-linux" role="tabpanel" aria-labelledby="trust-tab-label-linux" data-tab-panel="linux">
+    <p>Copy the CA certificate to the local trust directory, then refresh the trust store.</p>
+    <pre><code>sudo cp ca.cert.pem /usr/local/share/ca-certificates/student-ca.crt
+sudo update-ca-certificates</code></pre>
+  </div>
+  <div class="tab-panel" id="trust-tab-windows" role="tabpanel" aria-labelledby="trust-tab-label-windows" data-tab-panel="windows">
+    <p>Import <code>ca.cert.pem</code> into Trusted Root Certification Authorities. Administrator privileges may be required.</p>
+    <pre><code>certutil -addstore -f Root ca.cert.pem</code></pre>
+  </div>
+  <div class="tab-panel" id="trust-tab-macos" role="tabpanel" aria-labelledby="trust-tab-label-macos" data-tab-panel="macos">
+    <p>Open Keychain Access, import the CA certificate, then set trust to Always Trust for this lab CA.</p>
+    <pre><code>sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ca.cert.pem</code></pre>
+  </div>
+  <div class="tab-panel" id="trust-tab-firefox" role="tabpanel" aria-labelledby="trust-tab-label-firefox" data-tab-panel="firefox">
+    <p>Open Firefox certificate settings, import <code>ca.cert.pem</code>, and allow it to identify websites if required for the lab.</p>
+  </div>
+  <p class="notice"><strong>Lab safety:</strong> Only import the CA created for this exercise, and remove it when finished. Do not trust certificates you do not recognize.</p>
+  <button class="primary" id="trust-complete" type="button">I understand trust is configured separately</button>
+  <div class="result" id="trust-result" aria-live="polite"></div>
+</article>

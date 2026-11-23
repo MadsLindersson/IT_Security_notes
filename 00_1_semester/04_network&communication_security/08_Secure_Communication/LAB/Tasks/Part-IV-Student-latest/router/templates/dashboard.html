@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h2>Dashboard</h2>
+  <div class="status-grid">
+    <div><span>Hostname</span><strong>{{ hostname }}</strong></div>
+    <div><span>IPv4 forwarding</span><strong class="{{ 'ok' if forwarding else 'off' }}">{{ 'ON' if forwarding else 'OFF' }}</strong></div>
+    <div><span>WAN status</span><strong class="{{ 'ok' if wan_up else 'off' }}">{{ 'UP' if wan_up else 'DOWN' }}</strong></div>
+    <div><span>NAT</span><strong class="{{ 'ok' if nat else 'off' }}">{{ 'ON' if nat else 'OFF' }}</strong></div>
+  </div>
+</section>
+<section class="panel">
+  <h2>Interfaces</h2>
+  <table>
+    <thead><tr><th>Interface</th><th>Role</th><th>IPv4 address</th><th>Prefix</th><th>State</th></tr></thead>
+    <tbody>
+      {% for iface in interfaces %}
+        <tr>
+          <td>{{ iface.name }}</td>
+          <td>{{ iface.role }}</td>
+          <td>{{ iface.address if iface.configured else 'Unconfigured' }}</td>
+          <td>{{ '/' ~ iface.prefix if iface.configured else 'Unconfigured' }}</td>
+          <td>{{ iface.state }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

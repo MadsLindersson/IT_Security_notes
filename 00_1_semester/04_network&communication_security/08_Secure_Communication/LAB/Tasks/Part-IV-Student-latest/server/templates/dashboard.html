@@ -1,0 +1,13 @@
+<header class="page-heading"><div><p class="eyebrow">STAFF DASHBOARD</p><h1>Welcome back, $first_name</h1><p class="muted">Welcome to the MoSec Ltd. Staff Portal. View your company information and employee profile.</p></div><span class="term-chip">Autumn 2026</span></header>
+<section class="student-strip" aria-label="Employee information"><div><span class="field-label">Employee ID</span><strong>$student_id</strong></div><div><span class="field-label">Department</span><strong>$programme</strong></div><div><span class="field-label">Team</span><strong>$semester</strong></div><div><span class="field-label">Employment</span><span class="status">$status</span></div></section>
+<div class="dashboard-grid">
+  <div class="column">
+    <section class="card"><header class="card-heading"><h2>Upcoming meetings</h2><span class="muted small">7–10 September</span></header><ul class="class-list">$classes</ul></section>
+    <section class="card"><header class="card-heading"><h2>Completed tasks</h2><span class="muted small">This quarter</span></header><table class="grade-table"><caption class="sr-only">Your completed tasks by work area</caption><thead><tr><th scope="col">Work area</th><th scope="col">Tasks completed</th></tr></thead><tbody>$grades</tbody></table></section>
+  </div>
+  <div class="column">
+    <section class="card attendance"><header class="card-heading"><h2>Attendance</h2><span class="muted small">Quarter to date</span></header><div class="attendance-value">$attendance<span>%</span></div><progress max="100" value="$attendance" aria-label="Attendance percentage">$attendance%</progress><p class="muted small">Recorded attendance at scheduled team sessions.</p></section>
+    <section class="card"><header class="card-heading"><h2>Notifications</h2><span class="count">3</span></header><ul class="notification-list">$notifications</ul></section>
+    <section class="card profile-summary"><div class="avatar" aria-hidden="true">$initials</div><div><h2>$name</h2><p class="muted small">$student_id</p><a class="text-link" href="/profile">View your employee profile <span aria-hidden="true">→</span></a></div></section>
+  </div>
+</div>
