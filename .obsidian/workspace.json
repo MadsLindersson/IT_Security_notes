@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_1_semester/05_Kryptography/Exam/Hybrid_Encryption/Hybrid Encryption - ideer til slides.md",
+                "file": "00_1_semester/05_Kryptography/Exam/Symmetric_Encryption/Symmetric Encryption - ideer til slides.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hybrid Encryption - ideer til slides"
+              "title": "Symmetric Encryption - ideer til slides"
             }
           },
           {
@@ -235,10 +235,11 @@
   },
   "active": "9dd57af0b48eb46f",
   "lastOpenFiles": [
+    "00_1_semester/05_Kryptography/Exam/Hashing/Hashing - ideer til slides.md",
+    "00_1_semester/05_Kryptography/Exam/Hybrid_Encryption/Hybrid Encryption - ideer til slides.md",
     "00_1_semester/05_Kryptography/Exam/Hybrid_Encryption/Attachments/Pasted image 20261126102106.png",
     "00_1_semester/05_Kryptography/Exam/Hybrid_Encryption/Attachments",
     "00_1_semester/05_Kryptography/Exam/Asymmetric_Encryption/Asymmetric Encryption - ideer til slides.md",
-    "00_1_semester/05_Kryptography/Exam/Hybrid_Encryption/Hybrid Encryption - ideer til slides.md",
     "00_1_semester/05_Kryptography/Exam/Asymmetric_Encryption/Attachments/Pasted image 20261126101957.png",
     "00_1_semester/05_Kryptography/Exam/Asymmetric_Encryption/Attachments",
     "00_1_semester/05_Kryptography/Exam/Symmetric_Encryption/Symmetric Encryption - ideer til slides.md",
@@ -259,7 +260,6 @@
     "00_1_semester/03_System_Security/Mandatories/10/Attachments/Pasted image 20261125121004.png",
     "00_1_semester/03_System_Security/Mandatories/10/Attachments/Pasted image 20261125120937.png",
     "00_1_semester/03_System_Security/Mandatories/10/L10_SysSec_lavr.pdf",
-    "00_1_semester/03_System_Security/Mandatories/10/Attachments/Pasted image 20261125115819.png",
     "00_1_semester/03_System_Security/Mandatories/7/7.md",
     "00_1_semester/03_System_Security/Mandatories/8/8.md",
     "00_1_semester/03_System_Security/Mandatories/10/10.md",
