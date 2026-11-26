@@ -1,0 +1,3 @@
+![[Statefull firewall]]
+
+![[Stateless firewall]]
